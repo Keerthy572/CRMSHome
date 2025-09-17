@@ -1,0 +1,28 @@
+﻿@model CRMSHome.Models.Car
+
+@{
+    ViewData["Title"] = "Car Details";
+}
+
+<h2>Car Details</h2>
+
+<div class="card" style="width: 50%;">
+    <div class="card-body">
+        <h4 class="card-title">@Model.Brand - @Model.Model</h4>
+
+        @if (!string.IsNullOrEmpty(Model.ImagePath))
+        {
+            <div class="mb-3">
+                <img src="@Model.ImagePath" alt="Car Image" class="img-fluid" />
+            </div>
+        }
+
+        <p class="card-text"><strong>Car Type:</strong> @Model.CarType</p>
+        <p class="card-text"><strong>Seat Capacity:</strong> @Model.SeatCapacity</p>
+        <p class="card-text"><strong>Rent Per Day:</strong> @Model.RentPerDay</p>
+        <p class="card-text"><strong>Available Status:</strong> @Model.AvailableStatus</p>
+
+        <a asp-action="EditCar" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+        <a asp-action="Privacy" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>

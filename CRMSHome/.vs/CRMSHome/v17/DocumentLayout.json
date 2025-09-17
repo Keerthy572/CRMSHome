@@ -1,26 +1,102 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Tic\\CRMSHome\\CRMSHome\\",
+  "WorkspaceRootPath": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|e:\\tic\\crmshome\\crmshome\\crmshome\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\views\\home\\addcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\home\\addcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|e:\\tic\\crmshome\\crmshome\\crmshome\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|e:\\tic\\crmshome\\crmshome\\crmshome\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|e:\\tic\\crmshome\\crmshome\\crmshome\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\views\\filters\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\filters\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\views\\home\\editcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\home\\editcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\models\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\models\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Migrations\\20250917115920_addingSeatCapacity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CRMSHome\\Migrations\\20250917115920_addingSeatCapacity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\controllers\\filterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\controllers\\filterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\views\\filters\\addfilter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\filters\\addfilter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|e:\\tic\\crmshome\\crmshome\\crmshome\\migrations\\20250916124914_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\views\\home\\viewcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\home\\viewcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Migrations\\20250917102525_AddCarImage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CRMSHome\\Migrations\\20250917102525_AddCarImage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\migrations\\20250917101320_removebookingstatusfromcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\migrations\\20250917101320_removebookingstatusfromcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\migrations\\20250916124914_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\migrations\\20250916124914_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|z:\\crmshome\\crmshome\\crmshome\\crmshome\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,78 +109,315 @@
           "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "E:\\Tic\\CRMSHome\\CRMSHome\\CRMSHome\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "CRMSHome\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "E:\\Tic\\CRMSHome\\CRMSHome\\CRMSHome\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "CRMSHome\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T07:35:16.489Z",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Filters\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRMSHome\\Views\\Filters\\Index.cshtml",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Filters\\Index.cshtml",
+              "RelativeToolTip": "CRMSHome\\Views\\Filters\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T11:46:45.391Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "FiltersController.cs",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Controllers\\FiltersController.cs",
+              "RelativeDocumentMoniker": "CRMSHome\\Controllers\\FiltersController.cs",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Controllers\\FiltersController.cs",
+              "RelativeToolTip": "CRMSHome\\Controllers\\FiltersController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T11:45:51.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Filter.cs",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Models\\Filter.cs",
+              "RelativeDocumentMoniker": "CRMSHome\\Models\\Filter.cs",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Models\\Filter.cs",
+              "RelativeToolTip": "CRMSHome\\Models\\Filter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T11:19:39.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "CRMSHome\\Models\\Customer.cs",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Models\\Customer.cs",
+              "RelativeToolTip": "CRMSHome\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T11:19:30.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Booking.cs",
-              "DocumentMoniker": "E:\\Tic\\CRMSHome\\CRMSHome\\CRMSHome\\Models\\Booking.cs",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "CRMSHome\\Models\\Booking.cs",
-              "ToolTip": "E:\\Tic\\CRMSHome\\CRMSHome\\CRMSHome\\Models\\Booking.cs",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Models\\Booking.cs",
               "RelativeToolTip": "CRMSHome\\Models\\Booking.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T09:53:38.594Z"
+              "WhenOpened": "2025-09-17T11:19:06.531Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20250916124914_initialMigration.cs",
-              "DocumentMoniker": "E:\\Tic\\CRMSHome\\CRMSHome\\CRMSHome\\Migrations\\20250916124914_initialMigration.cs",
-              "RelativeDocumentMoniker": "CRMSHome\\Migrations\\20250916124914_initialMigration.cs",
-              "ToolTip": "E:\\Tic\\CRMSHome\\CRMSHome\\CRMSHome\\Migrations\\20250916124914_initialMigration.cs",
-              "RelativeToolTip": "CRMSHome\\Migrations\\20250916124914_initialMigration.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAUwGsAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "20250917101320_RemoveBookingStatusFromCar.cs",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Migrations\\20250917101320_RemoveBookingStatusFromCar.cs",
+              "RelativeDocumentMoniker": "CRMSHome\\Migrations\\20250917101320_RemoveBookingStatusFromCar.cs",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Migrations\\20250917101320_RemoveBookingStatusFromCar.cs",
+              "RelativeToolTip": "CRMSHome\\Migrations\\20250917101320_RemoveBookingStatusFromCar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T12:49:15.157Z"
+              "WhenOpened": "2025-09-17T10:13:20.39Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "E:\\Tic\\CRMSHome\\CRMSHome\\CRMSHome\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "CRMSHome\\Controllers\\AdminController.cs",
-              "ToolTip": "E:\\Tic\\CRMSHome\\CRMSHome\\CRMSHome\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "CRMSHome\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CRMSHome\\Controllers\\HomeController.cs",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CRMSHome\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAA0wEgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T04:34:18.105Z",
+              "WhenOpened": "2025-09-17T08:30:16.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Tic\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "CRMSHome\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "E:\\Tic\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "CRMSHome\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Title": "AddCar.cshtml",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\AddCar.cshtml",
+              "RelativeDocumentMoniker": "CRMSHome\\Views\\Home\\AddCar.cshtml",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\AddCar.cshtml",
+              "RelativeToolTip": "CRMSHome\\Views\\Home\\AddCar.cshtml",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAswEQAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-17T04:37:14.896Z",
+              "WhenOpened": "2025-09-17T09:47:35.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditCar.cshtml",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\EditCar.cshtml",
+              "RelativeDocumentMoniker": "CRMSHome\\Views\\Home\\EditCar.cshtml",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\EditCar.cshtml",
+              "RelativeToolTip": "CRMSHome\\Views\\Home\\EditCar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T09:58:42.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Car.cs",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "CRMSHome\\Models\\Car.cs",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Models\\Car.cs",
+              "RelativeToolTip": "CRMSHome\\Models\\Car.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAwwA0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T09:15:47.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250917115920_addingSeatCapacity.cs",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Migrations\\20250917115920_addingSeatCapacity.cs",
+              "RelativeDocumentMoniker": "CRMSHome\\Migrations\\20250917115920_addingSeatCapacity.cs",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Migrations\\20250917115920_addingSeatCapacity.cs",
+              "RelativeToolTip": "CRMSHome\\Migrations\\20250917115920_addingSeatCapacity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T11:59:21.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddFilter.cshtml",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Filters\\AddFilter.cshtml",
+              "RelativeDocumentMoniker": "CRMSHome\\Views\\Filters\\AddFilter.cshtml",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Filters\\AddFilter.cshtml",
+              "RelativeToolTip": "CRMSHome\\Views\\Filters\\AddFilter.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T11:48:19.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CRMSHome\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CRMSHome\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAcwBwAAACAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T08:43:02.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250916124914_initialMigration.cs",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Migrations\\20250916124914_initialMigration.cs",
+              "RelativeDocumentMoniker": "CRMSHome\\Migrations\\20250916124914_initialMigration.cs",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Migrations\\20250916124914_initialMigration.cs",
+              "RelativeToolTip": "CRMSHome\\Migrations\\20250916124914_initialMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T10:16:26.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250917102525_AddCarImage.cs",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Migrations\\20250917102525_AddCarImage.cs",
+              "RelativeDocumentMoniker": "CRMSHome\\Migrations\\20250917102525_AddCarImage.cs",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Migrations\\20250917102525_AddCarImage.cs",
+              "RelativeToolTip": "CRMSHome\\Migrations\\20250917102525_AddCarImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T10:25:25.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "CRMSHome\\Models\\Admin.cs",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Models\\Admin.cs",
+              "RelativeToolTip": "CRMSHome\\Models\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T09:00:34.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ViewCar.cshtml",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\ViewCar.cshtml",
+              "RelativeDocumentMoniker": "CRMSHome\\Views\\Home\\ViewCar.cshtml",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\ViewCar.cshtml",
+              "RelativeToolTip": "CRMSHome\\Views\\Home\\ViewCar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T10:03:33.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "CRMSHome\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "CRMSHome\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T10:16:33.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CRMSHome\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CRMSHome\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T09:22:16.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRMSHome\\Views\\Login\\Index.cshtml",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "CRMSHome\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T08:46:46.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "CRMSHome\\Controllers\\LoginController.cs",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "CRMSHome\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T08:44:30.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRMSHome\\Views\\Home\\Index.cshtml",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CRMSHome\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T08:30:04.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "CRMSHome\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "CRMSHome\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T09:10:38.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Program.cs",
+              "RelativeDocumentMoniker": "CRMSHome\\Program.cs",
+              "ToolTip": "Z:\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome\\Program.cs",
+              "RelativeToolTip": "CRMSHome\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAywCMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T08:21:58.004Z",
               "EditorCaption": ""
             }
           ]
