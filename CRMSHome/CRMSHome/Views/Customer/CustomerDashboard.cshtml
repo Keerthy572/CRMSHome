@@ -1,0 +1,44 @@
+﻿@model IEnumerable<CRMSHome.Models.Car>
+@{
+    Layout = "_CustomerLayout";
+    ViewData["Active"] = "Dashboard";
+    ViewData["Title"] = "Available Cars";
+}
+
+<h2 class="mb-4">Available Cars</h2>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var car in Model)
+    {
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="@car.ImagePath" class="card-img-top"
+                     alt="@car.Brand"
+                     style="width:100%; height:300px; object-fit:contain; background-color:#f8f9fa; display:block; margin-left:auto; margin-right:auto;" />
+
+
+                <div class="card-body">
+                    <h5 class="card-title">@car.Brand</h5>
+                    <p class="card-text">
+                        <strong>Model:</strong> @car.Model <br />
+                        <strong>Seats:</strong> @car.SeatCapacity <br />
+                        <strong>Price/Day:</strong> Rs.@car.RentPerDay <br />
+                        <strong>Status:</strong> @car.BookingStatus
+                    </p>
+                </div>
+                <div class="card-footer text-center">
+                    @if (car.BookingStatus == "Booked")
+                    {
+                        <button class="btn btn-secondary w-100" disabled>Already Booked</button>
+                    }
+                    else
+                    {
+                        <a href="@Url.Action("Details", "Customer", new { id = car.Id })"
+                           class="btn btn-primary w-100">View Details</a>
+                    }
+                </div>
+
+            </div>
+        </div>
+    }
+</div>

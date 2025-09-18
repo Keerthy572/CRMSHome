@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace CRMSHome.Migrations
 {
     /// <inheritdoc />
-    public partial class initialMigration : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -51,7 +51,8 @@ namespace CRMSHome.Migrations
                     SeatCapacity = table.Column<int>(type: "int", nullable: false),
                     RentPerDay = table.Column<int>(type: "int", nullable: false),
                     AvailableStatus = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    BookingStatus = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    BookingStatus = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ImagePath = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -79,7 +80,8 @@ namespace CRMSHome.Migrations
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     CarType = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Brand = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Brand = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    SeatCapacity = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {

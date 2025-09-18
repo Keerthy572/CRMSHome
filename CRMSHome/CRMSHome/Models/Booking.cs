@@ -6,8 +6,11 @@ namespace CRMSHome.Models
     public class Booking
     {
         public Guid Id { get; set; }
-        public string CarId { get; set; } = string.Empty;
-        public string CustomerId { get; set; } = string.Empty;
+        [Required]
+        public Guid CarId { get; set; }
+
+        [Required]
+        public Guid CustomerId { get; set; }
 
         [Required]
         [DataType(DataType.DateTime)]
@@ -17,7 +20,7 @@ namespace CRMSHome.Models
         [DataType(DataType.DateTime)]
         public DateTime EndDate { get; set; }
 
-        [Column(TypeName = "decimal(18,4)")]
+        [Column(TypeName = "decimal(18,2)")]
         public decimal TotalCost { get; set; }
 
 

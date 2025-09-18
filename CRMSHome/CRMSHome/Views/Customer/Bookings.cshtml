@@ -1,0 +1,54 @@
+﻿@model IEnumerable<dynamic>
+@{
+    Layout = "_CustomerLayout";
+    ViewData["Active"] = "Bookings";
+    ViewData["Title"] = "Your Bookings";
+}
+
+<h2 class="mb-4">Your Active Bookings</h2>
+
+@if (Model == null || !Model.Any())
+{
+    <p class="text-muted">You have no active bookings.</p>
+}
+else
+{
+    <div class="row g-3">
+        @foreach (var item in Model)
+        {
+            var booking = item.Booking;
+            var car = item.Car;
+            <div class="col-12">
+                <div class="card shadow-sm border rounded p-3 d-flex flex-row align-items-center">
+                    <img src="@car.ImagePath" alt="@car.Brand"
+                         style="width:150px; height:100px; object-fit:cover;" class="me-3" />
+
+                    <div class="flex-grow-1">
+                        <h5>@car.Brand - @car.Model</h5>
+                        <p class="mb-1">
+                            <strong>Seats:</strong> @car.SeatCapacity |
+                            <strong>Price/Day:</strong> Rs.@car.RentPerDay
+                        </p>
+                        <p class="mb-1">
+                            <strong>Booking Period:</strong> @booking.StartDate.ToString("dd/MM/yyyy")
+                            - @booking.EndDate.ToString("dd/MM/yyyy")
+                        </p>
+                        <p class="mb-1">
+                            <strong>Total Cost:</strong> Rs.@booking.TotalCost
+                        </p>
+                    </div>
+
+                    <div class="text-end">
+                        @if (booking.StartDate > DateTime.Now)
+                        {
+                            <form asp-action="CancelBooking" method="post">
+                                <input type="hidden" name="bookingId" value="@booking.Id" />
+                                <button type="submit" class="btn btn-danger">Cancel</button>
+                            </form>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

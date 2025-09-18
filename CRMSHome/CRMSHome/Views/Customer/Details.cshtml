@@ -1,0 +1,23 @@
+﻿@model CRMSHome.Models.Car
+@{
+    Layout = "_CustomerLayout";
+    ViewData["Title"] = "Car Details";
+}
+
+<div class="card shadow-lg">
+    <img src="@Model.ImagePath" class="card-img-top" alt="@Model.Brand" style="max-height:400px; width:100%; object-fit:contain; background-color:#f8f9fa;" />
+
+
+    <div class="card-body">
+        <h3 class="card-title">@Model.Brand - @Model.Model</h3>
+        <p class="card-text">
+            <strong>Seats:</strong> @Model.SeatCapacity <br />
+            <strong>Price/Day:</strong> $@Model.RentPerDay <br />
+            <strong>Status:</strong> @Model.AvailableStatus
+        </p>
+    </div>
+    <div class="card-footer text-center">
+        <a href="@Url.Action("BookCar", "Customer", new { carId = Model.Id })"
+           class="btn btn-success w-100">Book This Car</a>
+    </div>
+</div>

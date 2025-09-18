@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CRMSHome.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250916124914_initialMigration")]
-    partial class initialMigration
+    [Migration("20250918083729_UpdateBookingModel")]
+    partial class UpdateBookingModel
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -50,13 +50,11 @@ namespace CRMSHome.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("CarId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<Guid>("CarId")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("CustomerId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<Guid>("CustomerId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
@@ -65,7 +63,7 @@ namespace CRMSHome.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<decimal>("TotalCost")
-                        .HasColumnType("decimal(18,4)");
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
@@ -92,6 +90,9 @@ namespace CRMSHome.Migrations
 
                     b.Property<string>("CarType")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImagePath")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Model")
@@ -149,6 +150,9 @@ namespace CRMSHome.Migrations
                     b.Property<string>("CarType")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("SeatCapacity")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

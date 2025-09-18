@@ -65,6 +65,7 @@ namespace CRMSHome.Controllers
                     carImage.CopyTo(stream);
 
                     car.ImagePath = "/images/cars/" + fileName;
+                    car.BookingStatus = "Available";
                 }
 
                 _context.Cars.Add(car);

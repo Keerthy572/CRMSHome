@@ -47,13 +47,11 @@ namespace CRMSHome.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("CarId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<Guid>("CarId")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("CustomerId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<Guid>("CustomerId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
@@ -62,7 +60,7 @@ namespace CRMSHome.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<decimal>("TotalCost")
-                        .HasColumnType("decimal(18,4)");
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
@@ -76,6 +74,10 @@ namespace CRMSHome.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("AvailableStatus")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("BookingStatus")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CRMSHome.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250917102525_AddCarImage")]
-    partial class AddCarImage
+    [Migration("20250918065411_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -82,6 +82,10 @@ namespace CRMSHome.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("BookingStatus")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Brand")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -91,7 +95,6 @@ namespace CRMSHome.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImagePath")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Model")
@@ -149,6 +152,9 @@ namespace CRMSHome.Migrations
                     b.Property<string>("CarType")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("SeatCapacity")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

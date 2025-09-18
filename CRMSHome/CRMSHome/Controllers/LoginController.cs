@@ -41,6 +41,7 @@ namespace CRMSHome.Controllers
 
             if (customer != null)
             {
+                HttpContext.Session.SetString("CustomerId", customer.Id.ToString());
                 return RedirectToAction("CustomerDashboard", "Customer"); // ✅ You can create this page
             }
 
