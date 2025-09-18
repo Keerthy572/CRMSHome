@@ -1,8 +1,9 @@
-using System.Diagnostics;
 using CRMSHome.Data;
 using CRMSHome.Models;
+using CRMSHome.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
 
 namespace CRMSHome.Controllers
 {
@@ -20,7 +21,16 @@ namespace CRMSHome.Controllers
         // Home page
         public IActionResult Index()
         {
-            return View();
+            var model = new DashboardViewModel
+            {
+                TotalCars = _context.Cars.Count(),
+                AvailableCars = _context.Cars.Count(c => c.AvailableStatus == "Available"),
+                NotAvailableCars = _context.Cars.Count(c => c.AvailableStatus == "Not Available"),
+                BookedCars = _context.Cars.Count(c => c.BookingStatus == "Booked"),
+                NotBookedCars = _context.Cars.Count(c => c.BookingStatus == "Available")
+            };
+
+            return View(model);
         }
 
         // List all cars
@@ -159,6 +169,39 @@ namespace CRMSHome.Controllers
             {
                 RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier
             });
+        }
+
+        public IActionResult AllBookings()
+        {
+            var bookings = _context.Bookings
+                .Join(_context.Customers,
+                      b => b.CustomerId,
+                      c => c.Id,
+                      (b, c) => new { Booking = b, Customer = c })
+                .Join(_context.Cars,
+                      bc => bc.Booking.CarId,
+                      car => car.Id,
+                      (bc, car) => new AllBookingsViewModel
+                      {
+                          CustomerFullName = bc.Customer.Fullname,
+                          CustomerUsername = bc.Customer.Username,
+                          CustomerEmail = bc.Customer.Email,
+                          CarBrand = car.Brand,
+                          CarModel = car.Model,
+                          CarType = car.CarType,
+                          CarSeatCapacity = car.SeatCapacity,
+                          CarRentPerDay = car.RentPerDay,
+                          CarImagePath = car.ImagePath,
+                          StartDate = bc.Booking.StartDate,
+                          EndDate = bc.Booking.EndDate,
+                          TotalCost = bc.Booking.TotalCost,
+                          IsActive = bc.Booking.EndDate >= DateTime.Now
+                      })
+                .OrderByDescending(b => b.IsActive)      // Active bookings first
+                .ThenByDescending(b => b.StartDate)      // Latest bookings first
+                .ToList();
+
+            return View(bookings);
         }
     }
 }

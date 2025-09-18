@@ -1,0 +1,57 @@
+﻿@model IEnumerable<CRMSHome.ViewModels.AllBookingsViewModel>
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "All Bookings";
+}
+
+<h2 class="mb-4">All Bookings</h2>
+
+@if (!Model.Any())
+{
+    <p class="text-muted">No bookings found.</p>
+}
+else
+{
+    <div class="row g-3">
+        @foreach (var booking in Model)
+        {
+            <div class="col-12">
+                <div class="card shadow-sm border rounded p-3 mb-3">
+                    <div class="row align-items-center">
+                        <div class="col-md-3">
+                            <img src="@booking.CarImagePath" alt="@booking.CarBrand" class="img-fluid rounded" />
+                        </div>
+                        <div class="col-md-6">
+                            <h5>@booking.CarBrand - @booking.CarModel (@booking.CarType)</h5>
+                            <p>
+                                <strong>Seats:</strong> @booking.CarSeatCapacity |
+                                <strong>Price/Day:</strong> Rs.@booking.CarRentPerDay
+                            </p>
+                            <p>
+                                <strong>Customer:</strong> @booking.CustomerFullName
+                                (<strong>@booking.CustomerUsername</strong>)<br />
+                                <strong>Email:</strong> @booking.CustomerEmail
+                            </p>
+                            <p>
+                                <strong>Booking Period:</strong> @booking.StartDate.ToString("dd/MM/yyyy")
+                                - @booking.EndDate.ToString("dd/MM/yyyy")
+                            </p>
+                            <p><strong>Total Cost:</strong> Rs.@booking.TotalCost</p>
+                        </div>
+                        <div class="col-md-3 text-end">
+                            @if (booking.IsActive)
+                            {
+                                <span class="badge bg-success">Active</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-secondary">Completed</span>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
