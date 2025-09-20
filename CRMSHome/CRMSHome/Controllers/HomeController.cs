@@ -1,4 +1,4 @@
-using CRMSHome.Data;
+﻿using CRMSHome.Data;
 using CRMSHome.Models;
 using CRMSHome.ViewModels;
 using Microsoft.AspNetCore.Mvc;
@@ -181,27 +181,47 @@ namespace CRMSHome.Controllers
                 .Join(_context.Cars,
                       bc => bc.Booking.CarId,
                       car => car.Id,
-                      (bc, car) => new AllBookingsViewModel
-                      {
-                          CustomerFullName = bc.Customer.Fullname,
-                          CustomerUsername = bc.Customer.Username,
-                          CustomerEmail = bc.Customer.Email,
-                          CarBrand = car.Brand,
-                          CarModel = car.Model,
-                          CarType = car.CarType,
-                          CarSeatCapacity = car.SeatCapacity,
-                          CarRentPerDay = car.RentPerDay,
-                          CarImagePath = car.ImagePath,
-                          StartDate = bc.Booking.StartDate,
-                          EndDate = bc.Booking.EndDate,
-                          TotalCost = bc.Booking.TotalCost,
-                          IsActive = bc.Booking.EndDate >= DateTime.Now
-                      })
-                .OrderByDescending(b => b.IsActive)      // Active bookings first
-                .ThenByDescending(b => b.StartDate)      // Latest bookings first
+                      (bc, car) => new { bc.Booking, bc.Customer, Car = car })
+                .Select(x => new AllBookingsViewModel
+                {
+                    CustomerFullName = x.Customer.Fullname,
+                    CustomerUsername = x.Customer.Username,
+                    CustomerEmail = x.Customer.Email,
+
+                    CarBrand = x.Car.Brand,
+                    CarModel = x.Car.Model,
+                    CarType = x.Car.CarType,
+                    CarSeatCapacity = x.Car.SeatCapacity,
+                    CarRentPerDay = x.Car.RentPerDay,
+                    CarImagePath = x.Car.ImagePath,
+
+                    StartDate = x.Booking.StartDate,
+                    EndDate = x.Booking.EndDate,
+                    TotalCost = x.Booking.TotalCost,
+                    IsActive = x.Booking.EndDate >= DateTime.Now,
+
+                    // ✅ Pull payment info
+                    PaymentStatus = _context.Payments
+                        .Where(p => p.BookingId == x.Booking.Id)
+                        .Select(p => p.Status)
+                        .FirstOrDefault() ?? "Not Paid",
+
+                    PaymentDate = _context.Payments
+                        .Where(p => p.BookingId == x.Booking.Id)
+                        .Select(p => (DateTime?)p.PaymentDate)
+                        .FirstOrDefault(),
+
+                    CardLast4 = _context.Payments
+                        .Where(p => p.BookingId == x.Booking.Id)
+                        .Select(p => p.CardLast4)
+                        .FirstOrDefault(),
+                })
+                .OrderByDescending(b => b.IsActive)   // Active bookings first
+                .ThenByDescending(b => b.StartDate)   // Latest bookings first
                 .ToList();
 
             return View(bookings);
         }
+
     }
 }

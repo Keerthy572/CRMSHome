@@ -1,94 +1,118 @@
 ﻿@model CRMSHome.ViewModels.DashboardViewModel
 
-
 @{
     ViewData["Title"] = "Dashboard";
 }
 
-<h2>Car Rental Dashboard</h2>
+<h2 class="mb-4">Car Rental Dashboard</h2>
 
-<div class="row">
-    <div class="col-md-3">
-        <div class="card bg-primary text-white mb-3">
-            <div class="card-body">
-                <h5>Total</h5>
-                <h3>@Model.TotalCars Cars</h3>
+<div class="row g-3 mb-4">
+    @* Card Template *@
+    <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card text-white bg-primary shadow-sm rounded">
+            <div class="card-body text-center p-3">
+                <h6 class="card-title mb-2">Total Cars</h6>
+                <h3 class="card-text">@Model.TotalCars</h3>
             </div>
         </div>
     </div>
 
-    <div class="col-md-3">
-        <div class="card bg-success text-white mb-3">
-            <div class="card-body">
-                <h5>Available</h5>
-                <h3>@Model.AvailableCars Cars</h3>
+    <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card text-white bg-success shadow-sm rounded">
+            <div class="card-body text-center p-3">
+                <h6 class="card-title mb-2">Cars Available</h6>
+                <h3 class="card-text">@Model.AvailableCars</h3>
             </div>
         </div>
     </div>
 
-    <div class="col-md-3">
-        <div class="card bg-danger text-white mb-3">
-            <div class="card-body">
-                <h5>Currently Unavailable</h5>
-                <h3>@Model.NotAvailableCars Cars</h3>
+    <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card text-white bg-danger shadow-sm rounded">
+            <div class="card-body text-center p-3">
+                <h6 class="card-title mb-2">Cars Unavailable</h6>
+                <h3 class="card-text">@Model.NotAvailableCars</h3>
             </div>
         </div>
     </div>
 
-    <div class="col-md-3">
-        <div class="card bg-warning text-dark mb-3">
-            <div class="card-body">
-                <h5>Booked</h5>
-                <h3>@Model.BookedCars Cars</h3>
+    <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card text-dark bg-warning shadow-sm rounded">
+            <div class="card-body text-center p-3">
+                <h6 class="card-title mb-2">Booked Cars</h6>
+                <h3 class="card-text">@Model.BookedCars</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card text-white bg-info shadow-sm rounded">
+            <div class="card-body text-center p-3">
+                <h6 class="card-title mb-2">Ready for Booking</h6>
+                <h3 class="card-text">@Model.NotBookedCars</h3>
             </div>
         </div>
     </div>
 </div>
 
-<div class="row">
-    <div class="col-md-3">
-        <div class="card bg-info text-white mb-3">
+<div class="row g-4">
+    <div class="col-md-6">
+        <div class="card shadow-sm rounded">
+            <div class="card-header bg-light">
+                Availability Overview
+            </div>
             <div class="card-body">
-                <h5>Ready for Booking</h5>
-                <h3>@Model.NotBookedCars Cars</h3>
+                <canvas id="availabilityChart"></canvas>
             </div>
         </div>
     </div>
-</div>
-<div class="row mt-4">
+
     <div class="col-md-6">
-        <canvas id="availabilityChart"></canvas>
-    </div>
-    <div class="col-md-6">
-        <canvas id="bookingChart"></canvas>
+        <div class="card shadow-sm rounded">
+            <div class="card-header bg-light">
+                Booking Overview
+            </div>
+            <div class="card-body">
+                <canvas id="bookingChart"></canvas>
+            </div>
+        </div>
     </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
     // Availability Pie Chart
-    var ctx1 = document.getElementById('availabilityChart').getContext('2d');
-    var availabilityChart = new Chart(ctx1, {
+    const ctx1 = document.getElementById('availabilityChart').getContext('2d');
+    const availabilityChart = new Chart(ctx1, {
         type: 'pie',
         data: {
-            labels: ['Available', 'Currently Unavailable'],
+            labels: ['Available', 'Unavailable'],
             datasets: [{
                 data: [@Model.AvailableCars, @Model.NotAvailableCars],
-                backgroundColor: ['#28a745', '#dc3545']
+                backgroundColor: ['#28a745', '#dc3545'],
+                borderWidth: 1
             }]
+        },
+        options: {
+            responsive: true,
+            plugins: { legend: { position: 'bottom' } }
         }
     });
 
     // Booking Doughnut Chart
-    var ctx2 = document.getElementById('bookingChart').getContext('2d');
-    var bookingChart = new Chart(ctx2, {
+    const ctx2 = document.getElementById('bookingChart').getContext('2d');
+    const bookingChart = new Chart(ctx2, {
         type: 'doughnut',
         data: {
             labels: ['Booked', 'Ready for Booking'],
             datasets: [{
                 data: [@Model.BookedCars, @Model.TotalCars - @Model.BookedCars],
-                backgroundColor: ['#ffc107', '#17a2b8']
+                backgroundColor: ['#ffc107', '#17a2b8'],
+                borderWidth: 1
             }]
+        },
+        options: {
+            responsive: true,
+            plugins: { legend: { position: 'bottom' } }
         }
     });
 </script>

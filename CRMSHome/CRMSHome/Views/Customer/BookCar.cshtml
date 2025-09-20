@@ -35,25 +35,23 @@
 
 @section Scripts {
     <script>
-        const rentPerDay = @car.RentPerDay;
+        const startDateInput = document.getElementById("startDate");
+        const endDateInput = document.getElementById("endDate");
+        const totalCostInput = document.getElementById("totalCost");
+        const rentPerDay = @car.RentPerDay; // from ViewBag.Car
 
         function calculateCost() {
-            let start = new Date(document.getElementById("startDate").value);
-            let end = new Date(document.getElementById("endDate").value);
-
-            if (start && end && end >= start) {
-                let days = Math.ceil((end - start) / (1000 * 60 * 60 * 24)) + 1;
-                if (days > 30) {
-                    alert("Booking cannot exceed 30 days!");
-                    document.getElementById("endDate").value = "";
-                    document.getElementById("totalCost").value = "";
-                    return;
-                }
-                document.getElementById("totalCost").value = (days * rentPerDay).toFixed(2);
-            }
+            const start = new Date(startDateInput.value);
+            const end = new Date(endDateInput.value);
+            let days = Math.ceil((end - start) / (1000 * 60 * 60 * 24)) + 1;
+            if (days < 1) days = 1; // minimum 1 day
+            totalCostInput.value = (days * rentPerDay).toFixed(2);
         }
 
-        document.getElementById("startDate").addEventListener("change", calculateCost);
-        document.getElementById("endDate").addEventListener("change", calculateCost);
+        startDateInput.addEventListener("change", calculateCost);
+        endDateInput.addEventListener("change", calculateCost);
+
+        // Initial calculation
+        calculateCost();
     </script>
 }

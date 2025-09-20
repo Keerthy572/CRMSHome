@@ -34,10 +34,21 @@ else
                                 <strong>Email:</strong> @booking.CustomerEmail
                             </p>
                             <p>
-                                <strong>Booking Period:</strong> @booking.StartDate.ToString("dd/MM/yyyy")
-                                - @booking.EndDate.ToString("dd/MM/yyyy")
+                                <strong>Booking Period:</strong>
+                                @booking.StartDate.ToString("dd/MM/yyyy") -
+                                @booking.EndDate.ToString("dd/MM/yyyy")
                             </p>
                             <p><strong>Total Cost:</strong> Rs.@booking.TotalCost</p>
+
+                            <!-- ✅ Payment Info -->
+                            <p>
+                                <strong>Payment Status:</strong> @booking.PaymentStatus <br />
+                                <strong>Payment Date:</strong>
+                                @(booking.PaymentDate.HasValue? booking.PaymentDate.Value.ToString("dd/MM/yyyy HH:mm") : "-") <br />
+                                <strong>Card:</strong>
+                                @(string.IsNullOrEmpty(booking.CardLast4) ? "-" : "**** **** **** " + booking.CardLast4) <br />
+                                
+                            </p>
                         </div>
                         <div class="col-md-3 text-end">
                             @if (booking.IsActive)

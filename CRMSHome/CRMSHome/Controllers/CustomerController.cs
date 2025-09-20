@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using CRMSHome.Data;
 using CRMSHome.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace CRMSHome.Controllers
 {
@@ -102,7 +103,7 @@ namespace CRMSHome.Controllers
 
             _context.SaveChanges();
 
-            return RedirectToAction("CustomerDashboard");
+            return RedirectToAction("Payment", new { bookingId = booking.Id });
         }
 
         // Show active bookings of the logged-in customer
@@ -150,6 +151,88 @@ namespace CRMSHome.Controllers
             }
 
             return RedirectToAction("Bookings");
+        }
+
+        public IActionResult Payment(Guid bookingId)
+        {
+            var booking = _context.Bookings.FirstOrDefault(b => b.Id == bookingId);
+            if (booking == null) return NotFound();
+
+            return View(booking);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult PayNow(Guid bookingId, string cardNumber, string cardHolder, string expiryMonth, string expiryYear, string cvv)
+        {
+            var booking = _context.Bookings.FirstOrDefault(b => b.Id == bookingId);
+            if (booking == null) return NotFound();
+
+            // Basic server-side validation (keep minimal — client-side should already validate)
+            if (string.IsNullOrWhiteSpace(cardNumber) || cardNumber.Length < 12)
+            {
+                TempData["PaymentError"] = "Invalid card number.";
+                return RedirectToAction("Payment", new { bookingId });
+            }
+
+            // Do NOT store full card number or CVV
+            var last4 = cardNumber.Trim().Replace(" ", "").Length >= 4
+                        ? cardNumber.Trim().Replace(" ", "").Substring(cardNumber.Trim().Replace(" ", "").Length - 4)
+                        : cardNumber.Trim();
+
+            // Create payment record (dummy success)
+            var payment = new Payment
+            {
+                Id = Guid.NewGuid(),
+                BookingId = booking.Id,
+                Amount = booking.TotalCost,
+                PaymentDate = DateTime.Now,
+                Status = "Success",
+                CardLast4 = last4,
+                CardBrand = GetCardBrand(cardNumber) // helper below
+            };
+
+            _context.Payments.Add(payment);
+
+            // Mark booking as paid
+            booking.IsPaid = true;
+            // Optionally update booking status or other fields
+            _context.SaveChanges();
+
+            // Redirect to Payment Success page or dashboard
+            return RedirectToAction("PaymentSuccess", "Customer", new { paymentId = payment.Id });
+        }
+
+        public IActionResult PaymentSuccess(Guid paymentId)
+        {
+            var paymentWithBooking = (from p in _context.Payments
+                                      join b in _context.Bookings on p.BookingId equals b.Id
+                                      join c in _context.Cars on b.CarId equals c.Id
+                                      where p.Id == paymentId
+                                      select new
+                                      {
+                                          Payment = p,
+                                          Booking = b,
+                                          Car = c
+                                      }).FirstOrDefault();
+
+            if (paymentWithBooking == null) return NotFound();
+
+            // Pass a dynamic object to the view
+            return View(paymentWithBooking);
+        }
+
+
+
+        // small helper for brand (very naive)
+        private string GetCardBrand(string cardNumber)
+        {
+            if (string.IsNullOrWhiteSpace(cardNumber)) return "";
+            var cc = cardNumber.Replace(" ", "");
+            if (cc.StartsWith("4")) return "Visa";
+            if (cc.StartsWith("5")) return "MasterCard";
+            if (cc.StartsWith("34") || cc.StartsWith("37")) return "Amex";
+            return "Card";
         }
     }
 }

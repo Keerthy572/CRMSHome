@@ -4,6 +4,13 @@
     ViewData["Active"] = "Dashboard";
     ViewData["Title"] = "Available Cars";
 }
+<!-- ✅ Payment success popup -->
+@if (TempData["PaymentMessage"] != null)
+{
+    <script>
+        alert('@TempData["PaymentMessage"]');
+    </script>
+}
 
 <h2 class="mb-4">Available Cars</h2>
 

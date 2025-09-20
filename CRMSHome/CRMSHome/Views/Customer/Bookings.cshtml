@@ -38,15 +38,27 @@ else
                         </p>
                     </div>
 
-                    <div class="text-end">
+                    <div class="text-end d-flex flex-row gap-2">
+                        @* Cancel button (only if booking start is in future) *@
                         @if (booking.StartDate > DateTime.Now)
                         {
-                            <form asp-action="CancelBooking" method="post">
+                            <form asp-action="CancelBooking" method="post" class="d-inline-block">
                                 <input type="hidden" name="bookingId" value="@booking.Id" />
-                                <button type="submit" class="btn btn-danger">Cancel</button>
+                                <button type="submit" class="btn btn-danger btn-sm">Cancel</button>
                             </form>
                         }
+
+                        @* Pay Now button (only if booking is not paid) *@
+                        @if (!booking.IsPaid)
+                        {
+                            <a class="btn btn-success btn-sm" href="@Url.Action("Payment", "Customer", new { bookingId = booking.Id })">Pay Now</a>
+                        }
+                        else
+                        {
+                            <span class="badge bg-success align-self-center">Paid</span>
+                        }
                     </div>
+
                 </div>
             </div>
         }

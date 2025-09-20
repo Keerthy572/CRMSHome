@@ -1,0 +1,16 @@
+﻿@model dynamic
+@{
+    ViewData["Title"] = "Payment Success";
+}
+
+<div class="card p-4" style="max-width:600px; margin:auto; margin-top:50px;">
+    <h2 class="text-success mb-3">Payment Successful!</h2>
+
+    <p><strong>Booking ID:</strong> @Model.Booking.Id</p>
+    <p><strong>Amount Paid:</strong> Rs. @Model.Payment.Amount</p>
+    <p><strong>Payment Date:</strong> @Model.Payment.PaymentDate.ToString("dd/MM/yyyy HH:mm")</p>
+    <p><strong>Car:</strong> @Model.Car.Brand - @Model.Car.Model</p>
+    <p><strong>Card Used:</strong> @Model.Payment.CardBrand ending with @Model.Payment.CardLast4</p>
+
+    <a href="@Url.Action("CustomerDashboard", "Customer")" class="btn btn-primary mt-3">Go to Dashboard</a>
+</div>

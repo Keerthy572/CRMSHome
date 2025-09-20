@@ -15,5 +15,11 @@
         public DateTime EndDate { get; set; }
         public decimal TotalCost { get; set; }
         public bool IsActive { get; set; }
+
+        // ✅ Payment fields
+        public string PaymentStatus { get; set; }
+        public DateTime? PaymentDate { get; set; }
+        public string CardLast4 { get; set; }
+       
     }
 }
