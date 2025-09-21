@@ -1,0 +1,61 @@
+﻿/* Body Container */
+body {
+    background-color: #f2f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card Style */
+.add-car-card {
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .add-car-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 16px 40px rgba(0,0,0,0.15);
+    }
+
+/* Card Header */
+.add-car-header {
+    background-color: black;
+    color: #fff;
+    padding: 18px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+}
+
+/* Inputs */
+.add-car-card .form-control,
+.add-car-card .form-select {
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .add-car-card .form-control:focus,
+    .add-car-card .form-select:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+    }
+
+/* Buttons */
+.btn-add-car {
+    background-color: maroon;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+    .btn-add-car:hover {
+        background-color: linen;
+        transform: translateY(-2px);
+    }
+
+.btn-secondary {
+    border-radius: 10px;
+}

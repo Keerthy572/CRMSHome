@@ -222,6 +222,10 @@ namespace CRMSHome.Controllers
 
             return View(bookings);
         }
-
+        public IActionResult AboutUs()
+        {
+            return View();
+        }
     }
-}
+ }
+

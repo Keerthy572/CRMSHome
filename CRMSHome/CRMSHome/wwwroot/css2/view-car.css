@@ -1,0 +1,30 @@
+﻿.card {
+    border: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+}
+
+.card-title {
+    color: #343a40;
+}
+
+.list-group-item {
+    border: none;
+    padding: 12px 0;
+    font-size: 1rem;
+}
+
+.btn.w-45 {
+    width: 48%;
+}
+
+@media (max-width: 576px) {
+    .card {
+        max-width: 100%;
+    }
+
+    .btn.w-45 {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+}

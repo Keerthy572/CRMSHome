@@ -3,21 +3,40 @@
     Layout = "_CustomerLayout";
     ViewData["Title"] = "Car Details";
 }
+<link rel="stylesheet" href="~/css/car-details.css"/>
 
-<div class="card shadow-lg">
-    <img src="@Model.ImagePath" class="card-img-top" alt="@Model.Brand" style="max-height:400px; width:100%; object-fit:contain; background-color:#f8f9fa;" />
+<div class="car-details-page d-flex justify-content-center mt-5">
+    <div class="card car-details-card shadow-lg position-relative">
 
+        <!-- Ribbon if car is unavailable -->
+        @if (Model.AvailableStatus != "Available")
+        {
+            <div class="ribbon-status">@Model.AvailableStatus</div>
+        }
 
-    <div class="card-body">
-        <h3 class="card-title">@Model.Brand - @Model.Model</h3>
-        <p class="card-text">
-            <strong>Seats:</strong> @Model.SeatCapacity <br />
-            <strong>Price/Day:</strong> Rs.@Model.RentPerDay <br />
-            <strong>Status:</strong> @Model.AvailableStatus
-        </p>
-    </div>
-    <div class="card-footer text-center">
-        <a href="@Url.Action("BookCar", "Customer", new { carId = Model.Id })"
-           class="btn btn-success w-100">Book This Car</a>
+        <!-- Car Image -->
+        <img src="@Model.ImagePath"
+             alt="@Model.Brand @Model.Model"
+             class="card-img-top car-image" />
+
+        <div class="card-body text-center">
+            <h3 class="card-title fw-bold mb-3">@Model.Brand - @Model.Model</h3>
+            <p class="card-text mb-3">
+                <strong>Seats:</strong> @Model.SeatCapacity <br />
+                <strong>Price/Day:</strong> Rs.@Model.RentPerDay
+            </p>
+        </div>
+
+        <div class="card-footer text-center bg-white border-0">
+            @if (Model.AvailableStatus == "Available")
+            {
+                <a href="@Url.Action("BookCar", "Customer", new { carId = Model.Id })"
+                   class="btn btn-success btn-lg w-100 fw-semibold">Book This Car</a>
+            }
+            else
+            {
+                <button class="btn btn-secondary btn-lg w-100" disabled>Not Available</button>
+            }
+        </div>
     </div>
 </div>

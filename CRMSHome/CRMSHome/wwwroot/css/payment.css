@@ -1,0 +1,44 @@
+﻿/* Page background */
+.payment-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Card styling */
+.payment-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    max-width: 420px;
+    width: 100%;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+    .payment-card:hover {
+        transform: translateY(-4px);
+    }
+
+/* Booking ID */
+.booking-id {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+/* Amount section */
+.amount-section {
+    font-size: 18px;
+    border-top: 1px solid #dee2e6;
+    padding-top: 12px;
+}
+
+/* Buttons */
+.payment-card .btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+}

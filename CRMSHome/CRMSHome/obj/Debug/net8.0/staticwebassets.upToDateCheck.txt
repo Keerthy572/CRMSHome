@@ -1,5 +1,22 @@
+wwwroot\css2\add-car.css
+wwwroot\css2\allbooking.css
+wwwroot\css2\edit-car.css
+wwwroot\css2\filter.css
+wwwroot\css2\manage-cars.css
+wwwroot\css2\view-car.css
+wwwroot\css\about.css
+wwwroot\css\active-booking.css
+wwwroot\css\book-car.css
+wwwroot\css\car-details.css
+wwwroot\css\customer-register.css
+wwwroot\css\customerdashboard.css
+wwwroot\css\login.css
+wwwroot\css\payment.css
+wwwroot\css\paymentsuccess.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\aboutcar.jpg
+wwwroot\images\admin.jpg
 wwwroot\images\cars\01f4fca9-86f4-4126-a171-e8c739f3613d.jpg
 wwwroot\images\cars\0ea97ec5-05ef-438d-b799-1a37bb2f8883.jpeg
 wwwroot\images\cars\15a81e54-083f-43fc-b2bc-4abee43b581d.png
@@ -16,8 +33,11 @@ wwwroot\images\cars\3d724733-5c53-48bc-a654-bfbb27fd72c9.webp
 wwwroot\images\cars\3fbf3801-8548-4647-9a4a-73e88ba5d64d.jpeg
 wwwroot\images\cars\42488d2d-d064-47b1-98e1-bf4e52e573fb.jpg
 wwwroot\images\cars\42ff1712-3396-4dce-8859-1e9865ee1874.png
+wwwroot\images\cars\476e836a-deb5-485e-adba-d2244a424227.jpg
 wwwroot\images\cars\4cbfb2af-6ac6-4c2a-9c2c-090a8fb2758a.jpg
 wwwroot\images\cars\6495da0a-ebdf-40e3-a76b-1cd0c175483c.jpg
+wwwroot\images\cars\64a33c3a-180b-4c41-ac62-521114aca023.jpg
+wwwroot\images\cars\682f8679-c120-4411-a5c6-cffdda8a8d06.jpg
 wwwroot\images\cars\6a047a8e-23f8-4ee1-8801-dd2687933924.jpg
 wwwroot\images\cars\6e52a484-f197-48fb-9946-dea9937fa1c6.jpg
 wwwroot\images\cars\6e9337c8-6bfe-4f75-a25b-91c476636b58.jpeg
@@ -30,6 +50,7 @@ wwwroot\images\cars\9664f96f-e2a9-4ace-bf21-3c49f9d9c2c8.jpg
 wwwroot\images\cars\97ddb553-ea88-4ab1-aa46-983822ff6392.jpg
 wwwroot\images\cars\9cc0ecc9-aed6-47a5-ae54-ef12931d5f70.jpg
 wwwroot\images\cars\afe14a44-213e-4ce6-b5a9-b6c449b5333a.jpg
+wwwroot\images\cars\b4fb93f6-03a5-4dbc-b0aa-c2acb89ef677.jpg
 wwwroot\images\cars\b8033734-91b7-4806-b321-e456dc7f3dda.jpg
 wwwroot\images\cars\bc3f1845-af47-4496-98cf-f51a96d21da4.jpg
 wwwroot\images\cars\bd6daa71-9ad5-48c9-80d6-b7accfc9b323.jpg
@@ -43,6 +64,7 @@ wwwroot\images\cars\da27f231-ac31-4262-9a19-8f84bb9b9b71.webp
 wwwroot\images\cars\da4fcbbb-edc8-4d8c-8d51-5a0ee4d68d2c.jpg
 wwwroot\images\cars\dac0b34e-45dd-44d2-89be-8c19e0fb660a.jpg
 wwwroot\images\cars\edfd21b7-1d2b-4764-8a3f-8a0539dd2bf8.jpg
+wwwroot\images\cars\f18dc763-46a9-47e5-932f-77dd2bffb9bd.jpg
 wwwroot\images\cars\f946037b-d483-403c-bda1-48b86163e824.jpg
 wwwroot\images\cars\fb3e42fe-24f0-4ec0-b1fc-801b0fff37a0.jpg
 wwwroot\images\cars\fd3b8d7c-c091-4f22-b1f1-b9c7ca3fbb58.jpg
@@ -104,3 +126,4 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\css\dashboard.css

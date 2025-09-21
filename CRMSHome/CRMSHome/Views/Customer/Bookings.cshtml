@@ -4,42 +4,45 @@
     ViewData["Active"] = "Bookings";
     ViewData["Title"] = "Your Bookings";
 }
+<link rel="stylesheet" href="~/css/active-booking.css" />
 
-<h2 class="mb-4">Your Active Bookings</h2>
+<h2 class="mb-5 text-center fw-bold">Your Active Bookings</h2>
 
 @if (Model == null || !Model.Any())
 {
-    <p class="text-muted">You have no active bookings.</p>
+    <p class="text-muted text-center">You have no active bookings.</p>
 }
 else
 {
-    <div class="row g-3">
+    <div class="row g-4">
         @foreach (var item in Model)
         {
             var booking = item.Booking;
             var car = item.Car;
-            <div class="col-12">
-                <div class="card shadow-sm border rounded p-3 d-flex flex-row align-items-center">
-                    <img src="@car.ImagePath" alt="@car.Brand"
-                         style="width:150px; height:100px; object-fit:cover;" class="me-3" />
 
-                    <div class="flex-grow-1">
-                        <h5>@car.Brand - @car.Model</h5>
-                        <p class="mb-1">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card booking-card shadow-sm p-3 position-relative">
+
+                    <!-- Car Image -->
+                    <img src="@car.ImagePath" alt="@car.Brand"
+                         class="card-img-top booking-img mb-3" />
+
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">@car.Brand - @car.Model</h5>
+                        <p class="card-text mb-1">
                             <strong>Seats:</strong> @car.SeatCapacity |
                             <strong>Price/Day:</strong> Rs.@car.RentPerDay
                         </p>
-                        <p class="mb-1">
+                        <p class="card-text mb-1">
                             <strong>Booking Period:</strong> @booking.StartDate.ToString("dd/MM/yyyy")
                             - @booking.EndDate.ToString("dd/MM/yyyy")
                         </p>
-                        <p class="mb-1">
+                        <p class="card-text mb-1 fw-semibold">
                             <strong>Total Cost:</strong> Rs.@booking.TotalCost
                         </p>
                     </div>
 
-                    <div class="text-end d-flex flex-row gap-2">
-                        @* Cancel button (only if booking start is in future) *@
+                    <div class="card-footer d-flex justify-content-between align-items-center bg-white border-0 mt-2">
                         @if (booking.StartDate > DateTime.Now)
                         {
                             <form asp-action="CancelBooking" method="post" class="d-inline-block">
@@ -48,14 +51,13 @@ else
                             </form>
                         }
 
-                        @* Pay Now button (only if booking is not paid) *@
                         @if (!booking.IsPaid)
                         {
                             <a class="btn btn-success btn-sm" href="@Url.Action("Payment", "Customer", new { bookingId = booking.Id })">Pay Now</a>
                         }
                         else
                         {
-                            <span class="badge bg-success align-self-center">Paid</span>
+                            <span class="badge bg-success">Paid</span>
                         }
                     </div>
 
