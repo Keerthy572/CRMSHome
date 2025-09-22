@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Lourdwin Josuva\\Desktop\\21.09.2025\\CRMSHome\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lourdwin Josuva\\Desktop\\21.09.2025\\CRMSHome\\CRMSHome\\Migrations\\20250922101625_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CRMSHome\\Migrations\\20250922101625_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\lourdwin josuva\\desktop\\21.09.2025\\crmshome\\crmshome\\migrations\\20250922101625_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\migrations\\20250922101625_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\lourdwin josuva\\desktop\\21.09.2025\\crmshome\\crmshome\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -147,8 +147,7 @@
               "RelativeToolTip": "CRMSHome\\Models\\Customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T08:32:47.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T08:32:47.546Z"
             },
             {
               "$type": "Document",
@@ -160,8 +159,7 @@
               "RelativeToolTip": "CRMSHome\\Models\\Car.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T08:29:34.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T08:29:34.556Z"
             },
             {
               "$type": "Document",
@@ -173,8 +171,7 @@
               "RelativeToolTip": "CRMSHome\\Models\\Booking.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T08:29:30.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T08:29:30.209Z"
             },
             {
               "$type": "Document",
@@ -186,8 +183,7 @@
               "RelativeToolTip": "CRMSHome\\Views\\Home\\EditCar.cshtml",
               "ViewState": "AgIAADgAAAAAAAAAAAAowEkAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-22T08:27:44.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T08:27:44.899Z"
             },
             {
               "$type": "Document",
@@ -199,8 +195,7 @@
               "RelativeToolTip": "CRMSHome\\Views\\Customer\\PaymentSuccess.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-22T07:33:59.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T07:33:59.388Z"
             },
             {
               "$type": "Document",
@@ -212,8 +207,7 @@
               "RelativeToolTip": "CRMSHome\\Controllers\\CustomerController.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAUwJsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T05:25:27.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T05:25:27.076Z"
             },
             {
               "$type": "Document",
@@ -225,8 +219,7 @@
               "RelativeToolTip": "CRMSHome\\Views\\Customer\\Payment.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-22T05:24:36.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T05:24:36.68Z"
             },
             {
               "$type": "Document",
@@ -238,8 +231,7 @@
               "RelativeToolTip": "CRMSHome\\Models\\Filter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T08:32:51.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T08:32:51.406Z"
             },
             {
               "$type": "Document",
@@ -251,8 +243,7 @@
               "RelativeToolTip": "CRMSHome\\Models\\Image.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T08:35:54.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T08:35:54.619Z"
             },
             {
               "$type": "Document",
@@ -264,8 +255,7 @@
               "RelativeToolTip": "CRMSHome\\Migrations\\20250922100534_new.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T10:05:34.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T10:05:34.602Z"
             },
             {
               "$type": "Document",
@@ -277,8 +267,7 @@
               "RelativeToolTip": "CRMSHome\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAkwFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T10:24:00.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T10:24:00.571Z"
             },
             {
               "$type": "Document",
@@ -290,8 +279,7 @@
               "RelativeToolTip": "CRMSHome\\wwwroot\\css\\payment.css",
               "ViewState": "AgIAAHEAAAAAAAAAAAAAACYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-22T09:44:42.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T09:44:42.544Z"
             },
             {
               "$type": "Document",
@@ -303,21 +291,19 @@
               "RelativeToolTip": "CRMSHome\\Models\\Payment.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T05:59:46.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T05:59:46.284Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "CRMSHome",
+              "Title": "CRMSHome.csproj",
               "DocumentMoniker": "C:\\Users\\Lourdwin Josuva\\Desktop\\21.09.2025\\CRMSHome\\CRMSHome\\CRMSHome.csproj",
               "RelativeDocumentMoniker": "CRMSHome\\CRMSHome.csproj",
               "ToolTip": "C:\\Users\\Lourdwin Josuva\\Desktop\\21.09.2025\\CRMSHome\\CRMSHome\\CRMSHome.csproj",
               "RelativeToolTip": "CRMSHome\\CRMSHome.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-22T08:48:36.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T08:48:36.927Z"
             },
             {
               "$type": "Document",
@@ -329,8 +315,7 @@
               "RelativeToolTip": "CRMSHome\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T08:32:49.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T08:32:49.781Z"
             },
             {
               "$type": "Document",
@@ -342,8 +327,7 @@
               "RelativeToolTip": "CRMSHome\\ViewModels\\PaymentViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T05:23:26.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T05:23:26.44Z"
             },
             {
               "$type": "Document",
@@ -355,8 +339,7 @@
               "RelativeToolTip": "CRMSHome\\wwwroot\\css\\dashboard.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-21T10:53:01.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T10:53:01.994Z"
             },
             {
               "$type": "Document",
@@ -380,8 +363,7 @@
               "RelativeToolTip": "CRMSHome\\Views\\Shared\\_CustomerLayout.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-21T10:50:18.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T10:50:18.938Z"
             },
             {
               "$type": "Document",
@@ -393,8 +375,7 @@
               "RelativeToolTip": "CRMSHome\\Views\\Filters\\AddFilter.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-21T09:49:18.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T09:49:18.215Z"
             },
             {
               "$type": "Document",
@@ -406,8 +387,7 @@
               "RelativeToolTip": "CRMSHome\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAqwCUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-21T10:20:30.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T10:20:30.971Z"
             },
             {
               "$type": "Document",
@@ -419,8 +399,7 @@
               "RelativeToolTip": "CRMSHome\\ViewModels\\DashboardViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T06:33:29.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T06:33:29.155Z"
             },
             {
               "$type": "Document",
