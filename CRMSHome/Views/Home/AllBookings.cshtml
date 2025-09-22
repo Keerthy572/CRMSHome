@@ -1,0 +1,72 @@
+﻿@model IEnumerable<CRMSHome.ViewModels.AllBookingsViewModel>
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "All Bookings";
+}
+ <link rel="stylesheet" href="~/css2/allbooking.css" />
+
+<div class="container my-5">
+    <h2 class="mb-4 text-center fw-bold">All Bookings</h2>
+
+    @if (!Model.Any())
+    {
+        <p class="text-center text-muted">No bookings found.</p>
+    }
+    else
+    {
+        <div class="row g-4">
+            @foreach (var booking in Model)
+            {
+                <div class="col-12">
+                    <div class="card shadow-sm rounded hover-card p-3">
+                        <div class="row align-items-center">
+                            <div class="col-md-3 text-center mb-3 mb-md-0">
+                                <img src="@booking.CarImagePath" alt="@booking.CarBrand"
+                                     class="img-fluid rounded shadow-sm booking-car-img" />
+                            </div>
+
+                            <div class="col-md-6">
+                                <h5 class="fw-bold mb-2">@booking.CarBrand - @booking.CarModel (@booking.CarType)</h5>
+                                <p class="mb-1">
+                                    <strong>Seats:</strong> @booking.CarSeatCapacity |
+                                    <strong>Price/Day:</strong> Rs.@booking.CarRentPerDay
+                                </p>
+                                <p class="mb-1">
+                                    <strong>Customer:</strong> @booking.CustomerFullName
+                                    (<strong>@booking.CustomerUsername</strong>)<br />
+                                    <strong>Email:</strong> @booking.CustomerEmail
+                                </p>
+                                <p class="mb-1">
+                                    <strong>Booking Period:</strong>
+                                    @booking.StartDate.ToString("dd/MM/yyyy") -
+                                    @booking.EndDate.ToString("dd/MM/yyyy")
+                                </p>
+                                <p class="mb-1"><strong>Total Cost:</strong> Rs.@booking.TotalCost</p>
+
+                                <p class="mb-0">
+                                    <strong>Payment Status:</strong> @booking.PaymentStatus <br />
+                                    <strong>Payment Date:</strong>
+                                    @(booking.PaymentDate.HasValue? booking.PaymentDate.Value.ToString("dd/MM/yyyy HH:mm") : "-") <br />
+                                    <strong>Card:</strong>
+                                    @(string.IsNullOrEmpty(booking.CardLast4) ? "-" : "**** **** **** " + booking.CardLast4)
+                                </p>
+                            </div>
+
+                            <div class="col-md-3 text-center text-md-end mt-3 mt-md-0">
+                                @if (booking.IsActive)
+                                {
+                                    <span class="badge bg-success px-3 py-2 fs-6">Active</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-secondary px-3 py-2 fs-6">Completed</span>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

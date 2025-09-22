@@ -1,0 +1,81 @@
+﻿.table {
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+    .table thead th {
+        font-weight: 600;
+        color: #fff;
+        background-color: #343a40;
+        text-align: center;
+    }
+
+    .table tbody td {
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .table tbody tr:hover {
+        background-color: #f1f3f5;
+        transform: translateY(-2px);
+        transition: all 0.2s;
+    }
+
+.btn-primary {
+    background-color: maroon;
+    border-color: black;
+}
+
+    .btn-primary:hover {
+        background-color: #0b5ed7;
+        border-color: #0a58ca;
+    }
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+    .btn-danger:hover {
+        background-color: #c82333;
+        border-color: #bd2130;
+    }
+
+//add filler 
+
+.card {
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: maroon;
+    border-color: #0d6efd;
+}
+
+    .btn-primary:hover {
+        background-color: #0b5ed7;
+        border-color: #0a58ca;
+    }
+
+.btn-secondary {
+    background-color: maroon;
+    border-color: black;
+}
+
+    .btn-secondary:hover {
+        background-color: #5c636a;
+        border-color: #545b62;
+    }
+
+input.form-control {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+h2 {
+    color: #343a40;
+}
