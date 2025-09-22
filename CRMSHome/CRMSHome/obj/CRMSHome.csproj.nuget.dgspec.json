@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\New folder\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome.csproj": {}
+    "C:\\Users\\Lourdwin Josuva\\Desktop\\21.09.2025\\CRMSHome\\CRMSHome\\CRMSHome.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\New folder\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome.csproj": {
+    "C:\\Users\\Lourdwin Josuva\\Desktop\\21.09.2025\\CRMSHome\\CRMSHome\\CRMSHome.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\New folder\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome.csproj",
+        "projectUniqueName": "C:\\Users\\Lourdwin Josuva\\Desktop\\21.09.2025\\CRMSHome\\CRMSHome\\CRMSHome.csproj",
         "projectName": "CRMSHome",
-        "projectPath": "C:\\Users\\hp\\Desktop\\New folder\\CRMSHome\\CRMSHome\\CRMSHome\\CRMSHome.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\New folder\\CRMSHome\\CRMSHome\\CRMSHome\\obj\\",
+        "projectPath": "C:\\Users\\Lourdwin Josuva\\Desktop\\21.09.2025\\CRMSHome\\CRMSHome\\CRMSHome.csproj",
+        "packagesPath": "C:\\Users\\Lourdwin Josuva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lourdwin Josuva\\Desktop\\21.09.2025\\CRMSHome\\CRMSHome\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lourdwin Josuva\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -72,24 +72,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.19, 8.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

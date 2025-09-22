@@ -1,5 +1,6 @@
 ﻿@model dynamic
 @{
+    Layout = "_CustomerLayout";
     ViewData["Title"] = "Payment Success";
 }
 
@@ -18,7 +19,7 @@
 
         <!-- Booking Details -->
         <div class="details text-start">
-            <p><strong>Booking ID:</strong> @Model.Booking.Id</p>
+           @*  <p><strong>Booking ID:</strong> @Model.Booking.Id</p> *@
             <p><strong>Amount Paid:</strong> Rs. @Model.Payment.Amount</p>
             <p><strong>Payment Date:</strong> @Model.Payment.PaymentDate.ToString("dd/MM/yyyy HH:mm")</p>
             <p><strong>Car:</strong> @Model.Car.Brand - @Model.Car.Model</p>

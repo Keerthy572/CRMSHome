@@ -153,55 +153,56 @@ namespace CRMSHome.Controllers
             return RedirectToAction("Bookings");
         }
 
+        
         public IActionResult Payment(Guid bookingId)
         {
             var booking = _context.Bookings.FirstOrDefault(b => b.Id == bookingId);
-            if (booking == null) return NotFound();
-
-            return View(booking);
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult PayNow(Guid bookingId, string cardNumber, string cardHolder, string expiryMonth, string expiryYear, string cvv)
-        {
-            var booking = _context.Bookings.FirstOrDefault(b => b.Id == bookingId);
-            if (booking == null) return NotFound();
-
-            // Basic server-side validation (keep minimal — client-side should already validate)
-            if (string.IsNullOrWhiteSpace(cardNumber) || cardNumber.Length < 12)
+            if (booking == null)
             {
-                TempData["PaymentError"] = "Invalid card number.";
-                return RedirectToAction("Payment", new { bookingId });
+                return NotFound();
             }
 
-            // Do NOT store full card number or CVV
-            var last4 = cardNumber.Trim().Replace(" ", "").Length >= 4
-                        ? cardNumber.Trim().Replace(" ", "").Substring(cardNumber.Trim().Replace(" ", "").Length - 4)
-                        : cardNumber.Trim();
+            // prepare view model
+            var model = new PaymentViewModel
+            {
+                BookingId = booking.Id,
+                Amount = booking.TotalCost
+            };
 
-            // Create payment record (dummy success)
+            return View(model); // returns Payment.cshtml
+        }
+
+
+        
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult PayNow(PaymentViewModel model)
+        {
+            // Remove spaces for validation and storage
+            model.CardNumber = model.CardNumber.Replace(" ", "");
+
+            if (!ModelState.IsValid)
+            {
+                return View("Payment", model); // Return same view with errors
+            }
+
             var payment = new Payment
             {
                 Id = Guid.NewGuid(),
-                BookingId = booking.Id,
-                Amount = booking.TotalCost,
-                PaymentDate = DateTime.Now,
-                Status = "Success",
-                CardLast4 = last4,
-                CardBrand = GetCardBrand(cardNumber) // helper below
+                BookingId = model.BookingId,
+                Amount = model.Amount,
+                CardLast4 = model.CardNumber[^4..], // last 4 digits
+                CustomerName = model.CardHolder,
+                CardBrand = GetCardBrand(model.CardNumber),
+                Status = "Success"
             };
 
             _context.Payments.Add(payment);
-
-            // Mark booking as paid
-            booking.IsPaid = true;
-            // Optionally update booking status or other fields
             _context.SaveChanges();
 
-            // Redirect to Payment Success page or dashboard
-            return RedirectToAction("PaymentSuccess", "Customer", new { paymentId = payment.Id });
+            return RedirectToAction("PaymentSuccess", new { paymentId = payment.Id });
         }
+
 
         public IActionResult PaymentSuccess(Guid paymentId)
         {
@@ -218,13 +219,10 @@ namespace CRMSHome.Controllers
 
             if (paymentWithBooking == null) return NotFound();
 
-            // Pass a dynamic object to the view
             return View(paymentWithBooking);
         }
 
-
-
-        // small helper for brand (very naive)
+        // small helper for brand
         private string GetCardBrand(string cardNumber)
         {
             if (string.IsNullOrWhiteSpace(cardNumber)) return "";
@@ -234,5 +232,6 @@ namespace CRMSHome.Controllers
             if (cc.StartsWith("34") || cc.StartsWith("37")) return "Amex";
             return "Card";
         }
+
     }
 }

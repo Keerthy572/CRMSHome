@@ -1,15 +1,15 @@
 ﻿/* Page background */
-.payment-page {
+/*.payment-page {
     min-height: 100vh;
     background: linear-gradient(135deg, #f8f9fa, #e9ecef);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-}
+}*/
 
 /* Card styling */
-.payment-card {
+/*.payment-card {
     background: #fff;
     padding: 30px;
     border-radius: 16px;
@@ -21,24 +21,117 @@
 
     .payment-card:hover {
         transform: translateY(-4px);
-    }
+    }*/
 
 /* Booking ID */
-.booking-id {
+/*.booking-id {
     font-size: 13px;
     margin-bottom: 20px;
-}
+}*/
 
 /* Amount section */
-.amount-section {
+/*.amount-section {
     font-size: 18px;
     border-top: 1px solid #dee2e6;
     padding-top: 12px;
-}
+}*/
 
 /* Buttons */
-.payment-card .btn {
+/*.payment-card .btn {
     padding: 10px 20px;
     border-radius: 8px;
     font-weight: 600;
+}*/
+/* Full-screen background */
+body {
+    background: linear-gradient(135deg, #f3f4f6, #e2f5f0);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Centered Card */
+.payment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+/* Payment card box */
+.payment-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 40px 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 450px;
+    transition: 0.3s ease;
+}
+
+    .payment-card:hover {
+        box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Headings */
+    .payment-card h4 {
+        font-weight: 700;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .payment-card p {
+        font-size: 14px;
+        color: #6c757d;
+    }
+
+/* Labels */
+label {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Inputs */
+.payment-card input.form-control {
+    font-size: 15px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s;
+}
+
+    .payment-card input.form-control:focus {
+        border-color: #007bff;
+        box-shadow: none;
+    }
+
+/* Total amount */
+.total-amount {
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+}
+
+    .total-amount .amount {
+        color: #007bff;
+    }
+
+/* Buttons */
+.payment-card .btn {
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.payment-card .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+    .payment-card .btn-primary:hover {
+        background-color: #0069d9;
+    }
+
+.payment-card .btn-outline-secondary:hover {
+    background-color: #f1f1f1;
 }
