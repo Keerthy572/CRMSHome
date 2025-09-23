@@ -11,53 +11,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Car Rentals</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/customerlayout.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/CRMSHome.styles.css" asp-append-version="true" />
 </head>
-<body class="d-flex flex-column min-vh-100">
+<body class="d-flex flex-column min-vh-100 bg-dark text-light">
+
+    <!-- NAVBAR -->
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Customer" asp-action="CustomerDashboard">Car Rentals</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand fw-bold text-gradient" asp-area="" asp-controller="Customer" asp-action="CustomerDashboard">
+                    <i class="fas fa-car-side me-2"></i>Car Rentals
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Customer" asp-action="CustomerDashboard">Home</a>
+                            <a class="nav-link text-light fw-semibold" asp-area="" asp-controller="Customer" asp-action="CustomerDashboard">
+                                Home
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Customer" asp-action="Bookings"
+                            <a class="nav-link text-light fw-semibold" asp-controller="Customer" asp-action="Bookings"
                                asp-route-customerId="@customerId">
                                 Your Bookings
                             </a>
                         </li>
-                        </ul>
-
-                        <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-danger" asp-area="" asp-controller="Customer" asp-action="AboutUs">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-danger" asp-area="" asp-controller="Login" asp-action="Index">Logout</a>
+                            <a class="nav-link text-light fw-semibold" asp-area="" asp-controller="Customer" asp-action="AboutUs">
+                                About Us
+                            </a>
                         </li>
                     </ul>
-                    
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-outline-danger px-3 rounded-pill" asp-area="" asp-controller="Login" asp-action="Index">
+                                <i class="fas fa-sign-out-alt me-1"></i> Logout
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
     </header>
 
-    <div class="container flex-fill">
+    <!-- MAIN CONTENT -->
+    <div class="container flex-fill mt-4">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted mt-auto py-3">
-        <div class="container">
+    <!-- FOOTER -->
+    <footer class="border-top footer text-muted mt-auto py-3 bg-dark text-light">
+        <div class="container text-center">
             &copy; @DateTime.Now.Year - CRMSHome - Customer Portal
         </div>
     </footer>

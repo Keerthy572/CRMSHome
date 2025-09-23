@@ -1,0 +1,54 @@
+﻿body {
+    /* Navbar Gradient Text */
+    .text-gradient
+
+{
+    background: linear-gradient(45deg, #007bff, #00c6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Navbar Hover Effects */
+.navbar-nav .nav-link:hover {
+    color: #00c6ff !important;
+    transition: 0.3s;
+}
+
+/* Buttons */
+.btn-outline-danger {
+    border-width: 2px;
+    transition: all 0.3s ease;
+}
+
+    .btn-outline-danger:hover {
+        background-color: #dc3545;
+        color: #fff;
+        transform: scale(1.05);
+    }
+
+/* Glass/Shadow Card Effect for body sections */
+.container .card {
+    background: rgba(30, 30, 30, 0.85);
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+    color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+    .container .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 35px rgba(0,0,0,0.8);
+    }
+
+/* Footer Hover Links */
+.footer a {
+    color: #00c6ff;
+    text-decoration: none;
+}
+
+    .footer a:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+}

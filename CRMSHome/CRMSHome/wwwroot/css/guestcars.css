@@ -1,9 +1,5 @@
-﻿body {
-    
-    /* HERO SECTION */
-.hero-section
-
-{
+﻿/* ================= HERO SECTION ================= */
+.hero-section {
     position: relative;
     height: 90vh;
     background-size: cover;
@@ -20,7 +16,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     z-index: 1;
 }
 
@@ -28,20 +24,23 @@
     position: relative;
     z-index: 2;
     color: #fff;
+    text-align: center;
 }
 
 .text-gradient {
     background: linear-gradient(45deg, #00c6ff, #007bff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: 700;
 }
 
-/* BUTTONS */
+/* Buttons */
 .btn-glow {
     background-color: #007bff;
     color: #fff;
     transition: all 0.3s ease;
     box-shadow: 0 0 10px #007bff;
+    border-radius: 50px;
 }
 
     .btn-glow:hover {
@@ -53,6 +52,7 @@
     border: 2px solid #00c6ff;
     color: #00c6ff;
     transition: all 0.3s ease;
+    border-radius: 50px;
 }
 
     .btn-outline-glow:hover {
@@ -60,42 +60,103 @@
         color: #000;
     }
 
-/* CAR CARDS */
-.dark-card {
-    background-color: #1f1f1f;
+/* ================= CAR CARDS ================= */
+.car-card, .dark-card {
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    background: #1f1f1f; /* Dark base */
     color: #e0e0e0;
-    border-radius: 15px;
-    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
 }
 
-    .dark-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 10px 30px rgba(0, 198, 255, 0.3);
+    .car-card:hover, .dark-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 15px 35px rgba(0, 198, 255, 0.4);
     }
 
+.car-image {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-bottom: 1px solid #333;
+    transition: transform 0.3s ease;
+}
+
+.car-card:hover .car-image {
+    transform: scale(1.05);
+}
+
+/* Ribbon for booked cars */
 .ribbon {
     position: absolute;
     top: 15px;
-    left: -5px;
-    background: red;
+    left: -10px;
+    background: linear-gradient(45deg, #dc3545, #e4606d);
     color: #fff;
-    padding: 5px 15px;
-    font-size: 0.9rem;
-    font-weight: bold;
-    transform: rotate(-15deg);
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 6px 16px;
+    transform: rotate(-45deg);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+    z-index: 1;
 }
 
-/* WHY CHOOSE US */
+/* Card Footer & Buttons */
+.card-footer {
+    background: transparent;
+    border-top: none;
+    padding: 12px 16px;
+}
+
+    .card-footer .btn {
+        border-radius: 10px;
+        font-weight: 600;
+        padding: 8px 16px;
+        background: #007bff;
+        border: none;
+        transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+        .card-footer .btn:hover {
+            background: #0056b3;
+            transform: translateY(-2px);
+        }
+
+/* Badge Styling */
+.card-body .badge {
+    font-size: 0.9rem;
+    padding: 0.4em 0.8em;
+    margin-top: 10px;
+    border-radius: 12px;
+    background: #28a745;
+    color: #fff;
+    transition: background 0.2s ease;
+}
+
+    .card-body .badge:hover {
+        background: #218838;
+    }
+
+/* ================= WHY CHOOSE US ================= */
 .why-choose h3 {
     background: linear-gradient(45deg, #00c6ff, #007bff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-/* TEXT LIGHT */
+/* ================= GENERAL ================= */
 .text-light {
     color: #e0e0e0 !important;
 }
 
+/* Smooth Hover for all cards */
+.card, .glass-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+/* Optional: Add glow to featured section headings */
+.featured-cars h2, .why-choose h2 {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0,198,255,0.7);
 }

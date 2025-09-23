@@ -1,0 +1,76 @@
+﻿/* ===== NAVBAR DARKER ===== */
+.navbar {
+    background-color: #343a40; /* Dark gray navbar */
+    color: #f8f9fa;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 0 0 12px 12px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #f8f9fa;
+}
+
+.navbar-nav .nav-link {
+    color: #e9ecef;
+    font-weight: 500;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link.active {
+        background: #495057; /* slightly lighter gray on hover */
+        color: #fff;
+    }
+    /* ===== LOGOUT BUTTON (STANDARD STYLE) ===== */
+    .navbar-nav .nav-link.text-danger {
+        background-color: #dc3545; /* Standard bootstrap red */
+        color: #fff !important;
+        padding: 0.4rem 1rem;
+        border-radius: 6px;
+        font-weight: 500;
+        transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+        .navbar-nav .nav-link.text-danger:hover {
+            background-color: #c82333; /* Darker red on hover */
+            transform: translateY(-1px);
+            box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+        }
+
+
+/* ===== MAIN CONTENT & CARDS (unchanged) ===== */
+body {
+    background-color: #f8f9fa; /* Light gray main area */
+    color: #212529;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+        background: #f1f3f5;
+    }
+
+/* Buttons */
+.btn-primary {
+    background-color: #6c757d;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+    .btn-primary:hover {
+        background-color: #495057;
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(73,80,87,0.3);
+    }
