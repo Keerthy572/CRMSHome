@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CRMSHome.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250923151734_change")]
-    partial class change
+    [Migration("20250923161002_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

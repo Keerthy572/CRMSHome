@@ -239,6 +239,10 @@ namespace CRMSHome.Controllers
             if (cc.StartsWith("34") || cc.StartsWith("37")) return "Amex";
             return "Card";
         }
+        public IActionResult AboutUs()
+        {
+            return View();
+        }
 
     }
 }
