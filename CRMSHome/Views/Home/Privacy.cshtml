@@ -1,0 +1,71 @@
+﻿@model IEnumerable<CRMSHome.Models.Car>
+
+@{
+    ViewData["Title"] = "Manage Cars";
+}
+
+<link rel="stylesheet" href="~/css2/manage-cars.css" />
+
+<div class="container py-4">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold">Manage Cars</h2>
+        <a asp-action="AddCar" class="btn btn-success btn-lg">+ Add Car</a>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info text-center">
+            No cars added yet.
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-hover align-middle">
+                <thead>
+                    <tr>
+                        <th class="text-start">Brand</th>
+                        <th class="text-start">Model</th>
+                        <th class="text-start">Type</th>
+                        <th class="text-center">Seats</th>
+                        <th class="text-center">Rent/Day</th>
+                        <th class="text-center">Status</th>
+                        <th class="text-center" style="width:220px;">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var car in Model)
+                    {
+                        <tr>
+                            <td class="text-start">@car.Brand</td>
+                            <td class="text-start">@car.Model</td>
+                            <td class="text-start">@car.CarType</td>
+                            <td class="text-center">@car.SeatCapacity</td>
+                            <td class="text-center">Rs.@car.RentPerDay</td>
+                            <td class="text-center">
+                                @if (car.AvailableStatus == "Available")
+                                {
+                                    <span class="badge bg-success">Available</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-danger">Not Available</span>
+                                }
+                            </td>
+                            <td class="text-center">
+                                <a asp-action="ViewCar" asp-route-id="@car.Id" class="btn btn-info btn-sm me-1">View</a>
+                                <a asp-action="EditCar" asp-route-id="@car.Id" class="btn btn-warning btn-sm me-1">Edit</a>
+                                <a asp-action="DeleteCar" asp-route-id="@car.Id" class="btn btn-danger btn-sm"
+                                   onclick="return confirm('Are you sure you want to delete this car?');">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        </div>
+    }
+</div>
+
+<link rel="stylesheet" href="~/css/manage-cars.css" />

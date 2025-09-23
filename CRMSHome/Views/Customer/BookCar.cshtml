@@ -1,0 +1,63 @@
+﻿@model CRMSHome.Models.Booking
+@{
+    Layout = "_CustomerLayout";
+    ViewData["Title"] = "Book Car";
+    var car = ViewBag.Car as CRMSHome.Models.Car;
+}
+
+<link rel="stylesheet" href="~/css/book-car.css" />
+<div class="d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="card shadow-lg p-4 book-car-card">
+
+        <h3 class="text-center fw-bold mb-4">Book @car.Brand @car.Model</h3>
+
+        <form asp-action="BookCar" method="post">
+            <input type="hidden" asp-for="CarId" />
+
+            <div class="mb-3">
+                <label class="form-label">Start Date</label>
+                <input asp-for="StartDate" type="date" class="form-control" id="startDate" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">End Date</label>
+                <input asp-for="EndDate" type="date" class="form-control" id="endDate" />
+                <span asp-validation-for="EndDate" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Total Cost</label>
+                <input asp-for="TotalCost" class="form-control fw-bold text-success" id="totalCost" readonly />
+            </div>
+
+            <div class="d-flex justify-content-between mt-4">
+                <button type="submit" class="btn btn-success w-50 fw-semibold me-2">Confirm Booking</button>
+                <a asp-action="CustomerDashboard" class="btn btn-secondary w-50 fw-semibold ms-2">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const startDateInput = document.getElementById("startDate");
+        const endDateInput = document.getElementById("endDate");
+        const totalCostInput = document.getElementById("totalCost");
+        const rentPerDay = @car.RentPerDay;
+
+        function calculateCost() {
+            const start = new Date(startDateInput.value);
+            const end = new Date(endDateInput.value);
+            let days = Math.ceil((end - start) / (1000 * 60 * 60 * 24)) + 1;
+            if (days < 1) days = 1;
+            totalCostInput.value = (days * rentPerDay).toFixed(2);
+        }
+
+        startDateInput.addEventListener("change", calculateCost);
+        endDateInput.addEventListener("change", calculateCost);
+
+        // Initial calculation
+        calculateCost();
+    </script>
+}

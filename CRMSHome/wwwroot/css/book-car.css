@@ -1,0 +1,18 @@
+﻿.book-car-card {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .book-car-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+    }
+
+input[readonly] {
+    background-color: #e9f7ef !important;
+    border: 1px solid #28a745 !important;
+    font-size: 1.1rem;
+    text-align: center;
+}
