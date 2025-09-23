@@ -11,6 +11,7 @@ wwwroot\css\car-details.css
 wwwroot\css\customer-register.css
 wwwroot\css\customerdashboard.css
 wwwroot\css\dashboard.css
+wwwroot\css\guestcars.css
 wwwroot\css\login.css
 wwwroot\css\payment.css
 wwwroot\css\paymentsuccess.css
@@ -161,3 +162,4 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\css\guestlayout.css

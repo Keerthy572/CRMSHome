@@ -1,0 +1,113 @@
+﻿@model IEnumerable<CRMSHome.Models.Car>
+@{
+    Layout = "_GuestLayout";
+    ViewData["Active"] = "Guest";
+    ViewData["Title"] = "Available Cars";
+}
+<link rel="stylesheet" href="~/css/guestcars.css" />
+<!-- HERO SECTION -->
+<section class="hero-section d-flex align-items-center justify-content-center text-center">
+    <div class="overlay"></div>
+    <div class="hero-content">
+        <h1 class="display-3 fw-bold text-gradient animate__animated animate__fadeInDown">
+            Drive Your Dream Car Today
+        </h1>
+        <p class="lead mt-3 animate__animated animate__fadeInUp">Luxury & Affordable Cars for Rent</p>
+        <div class="mt-4">
+            <a href="/Login/Index" class="btn btn-glow btn-lg rounded-pill px-4 me-3 shadow-sm">
+                <i class="fas fa-sign-in-alt me-1"></i> Login & Book
+            </a>
+            <a href="#cars" class="btn btn-outline-glow btn-lg rounded-pill px-4 shadow-sm">
+                Explore Cars
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- AVAILABLE CARS -->
+<section id="cars" class="py-5">
+    <div class="container">
+        <h2 class="mb-5 text-center fw-bold text-light">Available Cars</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            @foreach (var car in Model)
+            {
+                <div class="col">
+                    <div class="card dark-card h-100 shadow-lg position-relative">
+                        @if (car.BookingStatus == "Booked")
+                        {
+                            <div class="ribbon">Booked</div>
+                        }
+                        <img src="@car.ImagePath" alt="@car.Brand @car.Model" class="card-img-top car-image" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">@car.Brand</h5>
+                            <p class="card-text text-muted">
+                                Model: @car.Model <br />
+                                Seats: @car.SeatCapacity <br />
+                                Price/Day: Rs.@car.RentPerDay
+                            </p>
+                            <span class="badge @(car.BookingStatus == "Booked" ? "bg-danger" : "bg-success")">
+                                @car.BookingStatus
+                            </span>
+                        </div>
+                        <div class="card-footer text-center bg-dark border-0">
+                            @if (car.BookingStatus == "Booked")
+                            {
+                                <button class="btn btn-secondary w-100" disabled>Already Booked</button>
+                            }
+                            else
+                            {
+                                <a asp-controller="Login" asp-action="Index" class="btn btn-glow w-100 fw-semibold">
+                                    View Details / Book (Login Required)
+                                </a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="why-choose py-5 bg-dark">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-5 text-light">Why Choose Us?</h2>
+        <div class="row text-center g-4">
+            <div class="col-md-3">
+                <h3 class="text-gradient fw-bold">100+</h3>
+                <p class="text-light">Cars Available</p>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-gradient fw-bold">500+</h3>
+                <p class="text-light">Happy Customers</p>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-gradient fw-bold">24/7</h3>
+                <p class="text-light">Customer Support</p>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-gradient fw-bold">10+</h3>
+                <p class="text-light">Years Experience</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- HERO SLIDESHOW -->
+<script>
+    (function () {
+        const hero = document.querySelector('.hero-section');
+        const images = [
+            'https://media.istockphoto.com/id/175388779/photo/black-sport-car-on-dark-background.jpg?s=612x612&w=0&k=20&c=YAJopAAI_oc2zV2apiccfJKK3t2WJuLufr9nIMkH1lQ=',
+            'https://media.istockphoto.com/id/1316428138/photo/sportscar-silhouette-on-black-background.jpg?s=612x612&w=0&k=20&c=W6ZKiqRozqKOxWXn3XvktYp485ZO_Wp7JqMZ4PTlJDM=',
+            'https://media.istockphoto.com/id/908021140/photo/silhouette-of-black-sports-car-on-black.jpg?s=612x612&w=0&k=20&c=L6rncQEKjI1Ke7_O5WQxTmOm7ZRdfql8FMr25gzX--Y='
+        ];
+        let index = 0;
+        setInterval(() => {
+            hero.style.backgroundImage = `url('${images[index]}')`;
+            index = (index + 1) % images.length;
+        }, 5000);
+    })();
+</script>

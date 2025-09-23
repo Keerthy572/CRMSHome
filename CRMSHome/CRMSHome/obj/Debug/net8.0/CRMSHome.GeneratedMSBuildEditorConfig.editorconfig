@@ -64,6 +64,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsdGVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Lourdwin Josuva/Desktop/Final_V1/CRMSHome/CRMSHome/Views/Guest/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcQWJvdXRVcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lourdwin Josuva/Desktop/Final_V1/CRMSHome/CRMSHome/Views/Guest/GuestCars.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcR3Vlc3RDYXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Lourdwin Josuva/Desktop/Final_V1/CRMSHome/CRMSHome/Views/Home/AddCar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRDYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -102,6 +110,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Lourdwin Josuva/Desktop/Final_V1/CRMSHome/CRMSHome/Views/Shared/_CustomerLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DdXN0b21lckxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lourdwin Josuva/Desktop/Final_V1/CRMSHome/CRMSHome/Views/Shared/_GuestLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9HdWVzdExheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lourdwin Josuva/Desktop/Final_V1/CRMSHome/CRMSHome/Views/Shared/_ValidationScriptsPartial.cshtml]

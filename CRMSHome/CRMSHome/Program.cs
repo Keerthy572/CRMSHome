@@ -46,9 +46,12 @@ namespace CRMSHome
 
             app.UseAuthorization();
 
+            //app.MapControllerRoute(
+            //    name: "default",
+            //    pattern: "{controller=Login}/{action=Index}/{id?}");
             app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Login}/{action=Index}/{id?}");
+    name: "default",
+    pattern: "{controller=Home}/{action=GuestCars}/{id?}");
 
             app.Run();
         }

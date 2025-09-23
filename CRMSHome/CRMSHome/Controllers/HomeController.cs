@@ -222,7 +222,18 @@ namespace CRMSHome.Controllers
 
             return View(bookings);
         }
-        
+        // Guest can see cars but cannot book
+        public IActionResult GuestCars()
+        {
+            var cars = _context.Cars
+                .Where(c => c.AvailableStatus == "Available")
+                .ToList();
+
+            return View("~/Views/Guest/GuestCars.cshtml", cars);
+        }
+
+
+
     }
- }
+}
 
