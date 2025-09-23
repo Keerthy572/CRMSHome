@@ -88,10 +88,6 @@ namespace CRMSHome.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("CarType")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("ImagePath")
                         .HasColumnType("nvarchar(max)");
 
@@ -104,6 +100,10 @@ namespace CRMSHome.Migrations
 
                     b.Property<int>("SeatCapacity")
                         .HasColumnType("int");
+
+                    b.Property<string>("TransmissionType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

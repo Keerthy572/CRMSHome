@@ -110,7 +110,7 @@ namespace CRMSHome.Controllers
                 {
                     car.Brand = updatedCar.Brand;
                     car.Model = updatedCar.Model;
-                    car.CarType = updatedCar.CarType;
+                    car.TransmissionType = updatedCar.TransmissionType;
                     car.SeatCapacity = updatedCar.SeatCapacity;
                     car.RentPerDay = updatedCar.RentPerDay;
                     car.AvailableStatus = updatedCar.AvailableStatus;
@@ -190,7 +190,7 @@ namespace CRMSHome.Controllers
 
                     CarBrand = x.Car.Brand,
                     CarModel = x.Car.Model,
-                    CarType = x.Car.CarType,
+                    TransmissionType = x.Car.TransmissionType,
                     CarSeatCapacity = x.Car.SeatCapacity,
                     CarRentPerDay = x.Car.RentPerDay,
                     CarImagePath = x.Car.ImagePath,

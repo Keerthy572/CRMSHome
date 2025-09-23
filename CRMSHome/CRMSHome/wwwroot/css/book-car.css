@@ -1,14 +1,14 @@
-﻿.book-car-card {
+﻿/*.book-car-card {
     width: 100%;
     max-width: 500px;
     border-radius: 12px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-    .book-car-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 12px 28px rgba(0,0,0,0.15);
-    }
+.book-car-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+}
 
 input[readonly] {
     background-color: #e9f7ef !important;
@@ -16,3 +16,38 @@ input[readonly] {
     font-size: 1.1rem;
     text-align: center;
 }
+
+*/
+.book-car-card {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 16px;
+    background: linear-gradient(145deg, #ffffff, #f8fafc);
+    border: 1px solid #e2e8f0;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.book-car-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+    border-color: #3b82f6;
+}
+
+input[readonly] {
+    background-color: #ecfdf5 !important;
+    border: 2px solid #22c55e !important;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 10px;
+    color: #1f2937;
+    font-weight: 500;
+    transition: border-color 0.2s ease;
+}
+
+    input[readonly]:focus {
+        outline: none;
+        border-color: #16a34a !important;
+    }

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace CRMSHome.Migrations
 {
     /// <inheritdoc />
-    public partial class initial : Migration
+    public partial class change : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -48,7 +48,7 @@ namespace CRMSHome.Migrations
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Brand = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Model = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CarType = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    TransmissionType = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     SeatCapacity = table.Column<int>(type: "int", nullable: false),
                     RentPerDay = table.Column<int>(type: "int", nullable: false),
                     AvailableStatus = table.Column<string>(type: "nvarchar(max)", nullable: false),

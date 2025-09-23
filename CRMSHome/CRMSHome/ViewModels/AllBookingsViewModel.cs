@@ -7,7 +7,7 @@
         public string CustomerEmail { get; set; }
         public string CarBrand { get; set; }
         public string CarModel { get; set; }
-        public string CarType { get; set; }
+        public string TransmissionType { get; set; }
         public int CarSeatCapacity { get; set; }
         public int CarRentPerDay { get; set; }
         public string CarImagePath { get; set; }

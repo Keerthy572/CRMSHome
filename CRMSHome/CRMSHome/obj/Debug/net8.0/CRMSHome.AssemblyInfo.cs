@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRMSHome")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d64ae71f10d6a8790403d69db259b00364464ae6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2323e3f32e8982bc05faff798f826e47d105a88")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRMSHome")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRMSHome")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

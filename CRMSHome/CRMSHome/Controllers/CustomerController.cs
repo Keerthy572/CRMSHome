@@ -198,6 +198,13 @@ namespace CRMSHome.Controllers
             };
 
             _context.Payments.Add(payment);
+
+            var booking = _context.Bookings.FirstOrDefault(b => b.Id == model.BookingId);
+            if (booking != null)
+            {
+                booking.IsPaid = true;
+                _context.Bookings.Update(booking);
+            }
             _context.SaveChanges();
 
             return RedirectToAction("PaymentSuccess", new { paymentId = payment.Id });

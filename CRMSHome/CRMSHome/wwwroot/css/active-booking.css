@@ -1,33 +1,69 @@
 ﻿.booking-card {
-    border-radius: 14px;
+    border-radius: 16px;
     overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(180deg, #ffffff, #f9fafb);
+    border: 1px solid #e5e7eb;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    max-width: 400px;
+    margin: 0 auto;
 }
 
     .booking-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+        transform: translateY(-8px);
+        box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+        border-color: #3b82f6;
     }
 
 .booking-img {
     width: 100%;
-    height: 180px;
+    height: 200px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 12px;
+    display: block;
+    transition: transform 0.3s ease;
 }
 
+    .booking-img:hover {
+        transform: scale(1.05);
+    }
+
 .card-footer .btn {
-    border-radius: 6px;
+    border-radius: 8px;
     font-weight: 600;
-    transition: transform 0.2s ease;
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
 }
 
     .card-footer .btn:hover:not(:disabled) {
-        transform: translateY(-2px);
+        transform: translateY(-3px);
+        background-color: #1d4ed8;
+        box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+    }
+
+    .card-footer .btn:disabled {
+        background-color: #9ca3af;
+        cursor: not-allowed;
+        opacity: 0.7;
     }
 
 .badge {
-    font-size: 0.85rem;
-    padding: 0.4em 0.6em;
+    font-size: 0.875rem;
+    padding: 0.5em 0.75em;
     font-weight: 600;
+    border-radius: 6px;
+    background-color: #22c55e;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.2s ease;
 }
+
+    .badge:hover {
+        background-color: #16a34a;
+    }

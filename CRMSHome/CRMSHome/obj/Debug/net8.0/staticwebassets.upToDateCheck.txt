@@ -59,6 +59,7 @@ wwwroot\images\cars\9664f96f-e2a9-4ace-bf21-3c49f9d9c2c8.jpg
 wwwroot\images\cars\97ddb553-ea88-4ab1-aa46-983822ff6392.jpg
 wwwroot\images\cars\9c28a746-1a35-47aa-9bab-83cc25445267.jpg
 wwwroot\images\cars\9cc0ecc9-aed6-47a5-ae54-ef12931d5f70.jpg
+wwwroot\images\cars\a60c877e-8fcb-4cae-a7f1-fdb5d0224728.jpg
 wwwroot\images\cars\abf2486c-b509-4adb-8656-b0efd8202c51.jpg
 wwwroot\images\cars\afe14a44-213e-4ce6-b5a9-b6c449b5333a.jpg
 wwwroot\images\cars\b284c18c-d5ba-4fc2-ba45-9b8fba18ca22.jpg
@@ -88,6 +89,7 @@ wwwroot\images\cars\f946037b-d483-403c-bda1-48b86163e824.jpg
 wwwroot\images\cars\f99eca00-834b-4ac7-b713-60ce9dfcf15e.jpg
 wwwroot\images\cars\fb3e42fe-24f0-4ec0-b1fc-801b0fff37a0.jpg
 wwwroot\images\cars\fd3b8d7c-c091-4f22-b1f1-b9c7ca3fbb58.jpg
+wwwroot\images\cars\fe87c2ae-ca52-429a-a109-3ee404e5d776.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map

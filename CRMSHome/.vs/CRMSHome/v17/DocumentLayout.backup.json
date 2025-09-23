@@ -1,25 +1,117 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lourdwin Josuva\\Desktop\\New folder (2)\\CRMSHome\\",
+  "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\lourdwin josuva\\desktop\\new folder (2)\\crmshome\\crmshome\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Migrations\\20250923151734_change.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CRMSHome\\Migrations\\20250923151734_change.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\views\\home\\allbookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\home\\allbookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\viewmodels\\allbookingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\viewmodels\\allbookingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\views\\home\\viewcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\home\\viewcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\views\\home\\editcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\home\\editcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\wwwroot\\css\\customer-register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\wwwroot\\css\\customer-register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\lourdwin josuva\\desktop\\new folder (2)\\crmshome\\crmshome\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\views\\home\\addcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\home\\addcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\wwwroot\\css\\active-booking.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\wwwroot\\css\\active-booking.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\lourdwin josuva\\desktop\\new folder (2)\\crmshome\\crmshome\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\lourdwin josuva\\desktop\\new folder (2)\\crmshome\\crmshome\\views\\filters\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\views\\customer\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\customer\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\wwwroot\\css\\payment.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\wwwroot\\css\\payment.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\wwwroot\\css\\car-details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\wwwroot\\css\\car-details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\wwwroot\\css\\customerdashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\wwwroot\\css\\customerdashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\views\\customer\\bookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\customer\\bookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\wwwroot\\css\\book-car.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\wwwroot\\css\\book-car.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\viewmodels\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\viewmodels\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\views\\customer\\paymentsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\customer\\paymentsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\views\\filters\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\views\\filters\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\lourdwin josuva\\desktop\\new folder (2)\\crmshome\\crmshome\\wwwroot\\css\\about.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|c:\\users\\hp\\desktop\\new folder (2)\\crmshome\\crmshome\\crmshome\\wwwroot\\css\\about.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{5B744773-18A9-4B66-B860-1B6A0163EA82}|CRMSHome\\CRMSHome.csproj|solutionrelative:crmshome\\wwwroot\\css\\about.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
@@ -39,77 +131,364 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20250923151734_change.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Migrations\\20250923151734_change.cs",
+              "RelativeDocumentMoniker": "CRMSHome\\Migrations\\20250923151734_change.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Migrations\\20250923151734_change.cs",
+              "RelativeToolTip": "CRMSHome\\Migrations\\20250923151734_change.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T15:17:36.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AllBookings.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\AllBookings.cshtml",
+              "RelativeDocumentMoniker": "CRMSHome\\Views\\Home\\AllBookings.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\AllBookings.cshtml",
+              "RelativeToolTip": "CRMSHome\\Views\\Home\\AllBookings.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAnwB0AAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T15:17:01.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AllBookingsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\ViewModels\\AllBookingsViewModel.cs",
+              "RelativeDocumentMoniker": "CRMSHome\\ViewModels\\AllBookingsViewModel.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\ViewModels\\AllBookingsViewModel.cs",
+              "RelativeToolTip": "CRMSHome\\ViewModels\\AllBookingsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T15:15:50.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "CRMSHome\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "CRMSHome\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAACoAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T15:15:16.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditCar.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\EditCar.cshtml",
+              "RelativeDocumentMoniker": "CRMSHome\\Views\\Home\\EditCar.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\EditCar.cshtml",
+              "RelativeToolTip": "CRMSHome\\Views\\Home\\EditCar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T15:14:13.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CRMSHome\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CRMSHome\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAAwLAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T15:13:21.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "customer-register.css",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\wwwroot\\css\\customer-register.css",
+              "RelativeDocumentMoniker": "CRMSHome\\wwwroot\\css\\customer-register.css",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\wwwroot\\css\\customer-register.css",
+              "RelativeToolTip": "CRMSHome\\wwwroot\\css\\customer-register.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-23T14:55:51.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "payment.css",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\wwwroot\\css\\payment.css",
+              "RelativeDocumentMoniker": "CRMSHome\\wwwroot\\css\\payment.css",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\wwwroot\\css\\payment.css",
+              "RelativeToolTip": "CRMSHome\\wwwroot\\css\\payment.css",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAIIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-23T14:42:57.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Customer\\Details.cshtml",
+              "RelativeDocumentMoniker": "CRMSHome\\Views\\Customer\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Customer\\Details.cshtml",
+              "RelativeToolTip": "CRMSHome\\Views\\Customer\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T14:41:02.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddCar.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\AddCar.cshtml",
+              "RelativeDocumentMoniker": "CRMSHome\\Views\\Home\\AddCar.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\AddCar.cshtml",
+              "RelativeToolTip": "CRMSHome\\Views\\Home\\AddCar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T14:40:45.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ViewCar.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\ViewCar.cshtml",
+              "RelativeDocumentMoniker": "CRMSHome\\Views\\Home\\ViewCar.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\ViewCar.cshtml",
+              "RelativeToolTip": "CRMSHome\\Views\\Home\\ViewCar.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABMAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T14:40:37.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "customerdashboard.css",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\wwwroot\\css\\customerdashboard.css",
+              "RelativeDocumentMoniker": "CRMSHome\\wwwroot\\css\\customerdashboard.css",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\wwwroot\\css\\customerdashboard.css",
+              "RelativeToolTip": "CRMSHome\\wwwroot\\css\\customerdashboard.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-23T14:38:07.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRMSHome\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CRMSHome\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T14:36:11.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "dashboard.css",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\wwwroot\\css\\dashboard.css",
+              "RelativeDocumentMoniker": "CRMSHome\\wwwroot\\css\\dashboard.css",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\wwwroot\\css\\dashboard.css",
+              "RelativeToolTip": "CRMSHome\\wwwroot\\css\\dashboard.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-23T14:34:53.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Bookings.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Customer\\Bookings.cshtml",
+              "RelativeDocumentMoniker": "CRMSHome\\Views\\Customer\\Bookings.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Customer\\Bookings.cshtml",
+              "RelativeToolTip": "CRMSHome\\Views\\Customer\\Bookings.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T14:33:19.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "car-details.css",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\wwwroot\\css\\car-details.css",
+              "RelativeDocumentMoniker": "CRMSHome\\wwwroot\\css\\car-details.css",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\wwwroot\\css\\car-details.css",
+              "RelativeToolTip": "CRMSHome\\wwwroot\\css\\car-details.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-23T14:24:58.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "book-car.css",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\wwwroot\\css\\book-car.css",
+              "RelativeDocumentMoniker": "CRMSHome\\wwwroot\\css\\book-car.css",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\wwwroot\\css\\book-car.css",
+              "RelativeToolTip": "CRMSHome\\wwwroot\\css\\book-car.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-23T14:22:41.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "active-booking.css",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\wwwroot\\css\\active-booking.css",
+              "RelativeDocumentMoniker": "CRMSHome\\wwwroot\\css\\active-booking.css",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\wwwroot\\css\\active-booking.css",
+              "RelativeToolTip": "CRMSHome\\wwwroot\\css\\active-booking.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-23T14:18:56.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PaymentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\ViewModels\\PaymentViewModel.cs",
+              "RelativeDocumentMoniker": "CRMSHome\\ViewModels\\PaymentViewModel.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\ViewModels\\PaymentViewModel.cs",
+              "RelativeToolTip": "CRMSHome\\ViewModels\\PaymentViewModel.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T14:00:24.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "CRMSHome\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Models\\Booking.cs",
+              "RelativeToolTip": "CRMSHome\\Models\\Booking.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T13:58:53.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PaymentSuccess.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Customer\\PaymentSuccess.cshtml",
+              "RelativeDocumentMoniker": "CRMSHome\\Views\\Customer\\PaymentSuccess.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Customer\\PaymentSuccess.cshtml",
+              "RelativeToolTip": "CRMSHome\\Views\\Customer\\PaymentSuccess.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T13:50:32.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Payment.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Customer\\Payment.cshtml",
+              "RelativeDocumentMoniker": "CRMSHome\\Views\\Customer\\Payment.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Customer\\Payment.cshtml",
+              "RelativeToolTip": "CRMSHome\\Views\\Customer\\Payment.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T13:47:46.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "CRMSHome\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "CRMSHome\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAAAYwM0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T13:47:24.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lourdwin Josuva\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\Views\\Login\\Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Login\\Register.cshtml",
               "RelativeDocumentMoniker": "CRMSHome\\Views\\Login\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Lourdwin Josuva\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\Views\\Login\\Register.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Login\\Register.cshtml",
               "RelativeToolTip": "CRMSHome\\Views\\Login\\Register.cshtml",
-              "ViewState": "AgIAAHIBAAAAAAAAAAAqwH8BAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAYwFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-23T09:13:05.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lourdwin Josuva\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\Views\\Login\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "CRMSHome\\Views\\Login\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Lourdwin Josuva\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Login\\Index.cshtml",
               "RelativeToolTip": "CRMSHome\\Views\\Login\\Index.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAE4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-23T09:10:01.228Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "login.css",
-              "DocumentMoniker": "C:\\Users\\Lourdwin Josuva\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\wwwroot\\css\\login.css",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\wwwroot\\css\\login.css",
               "RelativeDocumentMoniker": "CRMSHome\\wwwroot\\css\\login.css",
-              "ToolTip": "C:\\Users\\Lourdwin Josuva\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\wwwroot\\css\\login.css",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\wwwroot\\css\\login.css",
               "RelativeToolTip": "CRMSHome\\wwwroot\\css\\login.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-09-23T09:07:13.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 27,
               "Title": "about.css",
-              "DocumentMoniker": "C:\\Users\\Lourdwin Josuva\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\wwwroot\\css\\about.css",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\wwwroot\\css\\about.css",
               "RelativeDocumentMoniker": "CRMSHome\\wwwroot\\css\\about.css",
-              "ToolTip": "C:\\Users\\Lourdwin Josuva\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\wwwroot\\css\\about.css",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\wwwroot\\css\\about.css",
               "RelativeToolTip": "CRMSHome\\wwwroot\\css\\about.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-21T10:18:18.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T10:18:18.413Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 26,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lourdwin Josuva\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\Views\\Filters\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Filters\\Index.cshtml",
               "RelativeDocumentMoniker": "CRMSHome\\Views\\Filters\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Lourdwin Josuva\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\Views\\Filters\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (2)\\CRMSHome\\CRMSHome\\CRMSHome\\Views\\Filters\\Index.cshtml",
               "RelativeToolTip": "CRMSHome\\Views\\Filters\\Index.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-21T09:46:48.304Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedHeight": 54,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2025-09-21T09:46:48.304Z"
             }
           ]
         }

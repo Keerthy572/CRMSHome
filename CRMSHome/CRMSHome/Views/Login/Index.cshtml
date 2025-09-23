@@ -10,77 +10,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>@ViewData["Title"]</title>
+
+    <!-- Bootstrap & Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link rel="stylesheet" href="/css/Login.css" asp-append-version="true" />
 
-    <style>
-        body {
-            background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .card {
-            background: rgba(0, 0, 0, 0.85); /* Transparent black overlay */
-            color: #fff;
-            border: none;
-            border-radius: 15px;
-            backdrop-filter: blur(10px);
-        }
-
-        .card-header {
-            border-bottom: none;
-            font-weight: bold;
-            font-size: 1.2rem;
-        }
-
-        .input-group-text {
-            background: #222;
-            color: #ddd;
-            border: none;
-        }
-
-        .form-control {
-            background: #111;
-            color: #fff;
-            border: 1px solid #333;
-        }
-
-            .form-control:focus {
-                background: #111;
-                color: #fff;
-                border-color: #0d6efd;
-                box-shadow: none;
-            }
-
-        .btn-custom {
-            background: linear-gradient(45deg, #0d6efd, #6610f2);
-            border: none;
-            color: white;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-
-            .btn-custom:hover {
-                background: linear-gradient(45deg, #6610f2, #0d6efd);
-                transform: translateY(-2px);
-            }
-
-        a.text-link {
-            color: #0dcaf0;
-            text-decoration: none;
-        }
-
-            a.text-link:hover {
-                text-decoration: underline;
-            }
-    </style>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
 </head>
 <body>
-
     <div class="col-md-4">
         <div class="card shadow-lg p-4">
             <div class="card-header text-center text-primary bg-transparent">
@@ -127,6 +65,7 @@
         </div>
     </div>
 
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive@4.0.0/dist/jquery.validate.unobtrusive.min.js"></script>

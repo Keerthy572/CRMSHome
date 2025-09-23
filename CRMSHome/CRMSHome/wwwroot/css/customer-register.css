@@ -1,73 +1,62 @@
-﻿
-/* Card Styling */
-.register-card {
-    border-radius: 16px;
-    overflow: hidden;
-    box-shadow: 0 12px 30px rgba(0,0,0,0.6);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    background-color: white;
+﻿body {
+    background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-    .register-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 18px 40px rgba(0,0,0,0.8);
-    }
-
-/* Card Header */
-.register-header {
-    background-color: black;
-    color: #00ff99;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-
-/* Form Inputs */
-.register-card .form-control {
-    border-radius: 10px;
-    padding: 10px 15px;
-    font-size: 1rem;
-    background-color: light lightgray;
-    border: 1px solid #444;
-    color: black;
-}
-
-    .register-card .form-control:focus {
-        border-color: #00ff99;
-        box-shadow: 0 0 0 0.2rem rgba(0, 255, 153, 0.25);
-    }
-
-/* Buttons */
-.register-card .btn-success {
-    background-color: black;
+.card {
+    background: rgba(0, 0, 0, 0.85);
+    color: #fff;
     border: none;
-    font-weight: 600;
-    border-radius: 10px;
-    transition: background 0.3s ease, transform 0.2s ease;
-    color: white;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
 }
 
-    .register-card .btn-success:hover {
-        background-color: black;
+.card-header {
+    border-bottom: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.input-group-text {
+    background: #222;
+    color: #ddd;
+    border: none;
+}
+
+.form-control {
+    background: #111;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+    .form-control:focus {
+        background: #111;
+        color: #fff;
+        border-color: #0d6efd;
+        box-shadow: none;
+    }
+
+.btn-custom {
+    background: linear-gradient(45deg, #0d6efd, #6610f2);
+    border: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+    .btn-custom:hover {
+        background: linear-gradient(45deg, #6610f2, #0d6efd);
         transform: translateY(-2px);
     }
 
-/* Links */
-.register-card .btn-link {
-    color: black;
-    font-weight: 500;
+a.text-link {
+    color: #0dcaf0;
+    text-decoration: none;
 }
 
-    .register-card .btn-link:hover {
+    a.text-link:hover {
         text-decoration: underline;
-        color: #00cc7a;
     }
-
-/* Alerts */
-.alert {
-    border-radius: 10px;
-    background-color: #ff4d4d;
-    color: #fff;
-    border: none;
-}

@@ -17,105 +17,105 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CRMSHome
 build_property.RootNamespace = CRMSHome
-build_property.ProjectDir = C:\Users\Lourdwin Josuva\Desktop\New folder (2)\CRMSHome\CRMSHome\
+build_property.ProjectDir = C:\Users\hp\Desktop\New folder (2)\CRMSHome\CRMSHome\CRMSHome\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Lourdwin Josuva\Desktop\New folder (2)\CRMSHome\CRMSHome
+build_property.MSBuildProjectDirectory = C:\Users\hp\Desktop\New folder (2)\CRMSHome\CRMSHome\CRMSHome
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/Customer/BookCar.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/Customer/BookCar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQm9va0Nhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/Customer/Bookings.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/Customer/Bookings.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQm9va2luZ3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/Customer/CustomerDashboard.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/Customer/CustomerDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3VzdG9tZXJEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/Customer/Details.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/Customer/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/Customer/Payment.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/Customer/Payment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcUGF5bWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/Customer/PaymentSuccess.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/Customer/PaymentSuccess.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcUGF5bWVudFN1Y2Nlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/Filters/AddFilter.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/Filters/AddFilter.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsdGVyc1xBZGRGaWx0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/Filters/Index.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/Filters/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsdGVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/Home/AboutUs.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/Home/AboutUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/Home/AddCar.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/Home/AddCar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRDYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/Home/AllBookings.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/Home/AllBookings.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbGxCb29raW5ncy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/Home/EditCar.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/Home/EditCar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0Q2FyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/Home/Index.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/Home/Privacy.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/Home/ViewCar.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/Home/ViewCar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3Q2FyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/Login/Index.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/Login/Register.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/Login/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/Shared/Error.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/Shared/_CustomerLayout.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/Shared/_CustomerLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DdXN0b21lckxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/_ViewImports.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/_ViewStart.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lourdwin Josuva/Desktop/New folder (2)/CRMSHome/CRMSHome/Views/Shared/_Layout.cshtml]
+[C:/Users/hp/Desktop/New folder (2)/CRMSHome/CRMSHome/CRMSHome/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-epbnbhttfg
