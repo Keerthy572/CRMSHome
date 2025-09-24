@@ -63,6 +63,14 @@
     align-items: center;
     transition: background-color 0.2s ease;
 }
+.card-body {
+    color: #000; /* Force all text inside to be visible */
+}
+
+    .card-body h5,
+    .card-body p {
+        color: #000; /* Ensure headings and details are black */
+    }
 
     .badge:hover {
         background-color: #16a34a;

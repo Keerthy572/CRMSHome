@@ -173,17 +173,16 @@ namespace CRMSHome.Controllers
         }
 
 
-        
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult PayNow(PaymentViewModel model)
         {
-            // Remove spaces for validation and storage
             model.CardNumber = model.CardNumber.Replace(" ", "");
 
             if (!ModelState.IsValid)
             {
-                return View("Payment", model); // Return same view with errors
+                return View("Payment", model);
             }
 
             var payment = new Payment
@@ -191,12 +190,13 @@ namespace CRMSHome.Controllers
                 Id = Guid.NewGuid(),
                 BookingId = model.BookingId,
                 Amount = model.Amount,
-                CardLast4 = model.CardNumber[^4..], // last 4 digits
+                CardLast4 = model.CardNumber[^4..],
                 CustomerName = model.CardHolder,
                 CardBrand = GetCardBrand(model.CardNumber),
                 Status = "Success"
             };
 
+            // ✅ Save to DB
             _context.Payments.Add(payment);
 
             var booking = _context.Bookings.FirstOrDefault(b => b.Id == model.BookingId);
@@ -205,29 +205,54 @@ namespace CRMSHome.Controllers
                 booking.IsPaid = true;
                 _context.Bookings.Update(booking);
             }
+
             _context.SaveChanges();
 
-            return RedirectToAction("PaymentSuccess", new { paymentId = payment.Id });
+            // ✅ Redirect to Success Page
+            return RedirectToAction("PaymentSuccess", "Customer", new { paymentId = payment.Id });
         }
 
 
+        //public IActionResult PaymentSuccess(Guid paymentId)
+        //{
+        //    var paymentWithBooking = (from p in _context.Payments
+        //                              join b in _context.Bookings on p.BookingId equals b.Id
+        //                              join c in _context.Cars on b.CarId equals c.Id
+        //                              where p.Id == paymentId
+        //                              select new
+        //                              {
+        //                                  Payment = p,
+        //                                  Booking = b,
+        //                                  Car = c
+        //                              }).FirstOrDefault();
+
+        //    if (paymentWithBooking == null) return NotFound();
+
+        //    return View(paymentWithBooking);
+        //}
         public IActionResult PaymentSuccess(Guid paymentId)
         {
             var paymentWithBooking = (from p in _context.Payments
                                       join b in _context.Bookings on p.BookingId equals b.Id
                                       join c in _context.Cars on b.CarId equals c.Id
                                       where p.Id == paymentId
-                                      select new
+                                      select new PaymentSuccessViewModel
                                       {
                                           Payment = p,
                                           Booking = b,
                                           Car = c
                                       }).FirstOrDefault();
 
-            if (paymentWithBooking == null) return NotFound();
+            if (paymentWithBooking == null)
+            {
+                return NotFound();
+            }
 
             return View(paymentWithBooking);
         }
+
+
+
 
         // small helper for brand
         private string GetCardBrand(string cardNumber)
@@ -243,6 +268,7 @@ namespace CRMSHome.Controllers
         {
             return View();
         }
+
 
     }
 }

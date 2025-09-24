@@ -1,5 +1,4 @@
-﻿
-.car-card {
+﻿.car-card {
     border-radius: 16px; /* Slightly larger radius for softer corners */
     overflow: hidden;
     transition: all 0.4s ease; /* Smooth transition for all properties */
@@ -41,6 +40,14 @@
     z-index: 1; /* Ensure ribbon is above other elements */
 }
 
+.card-body {
+    color: #000; /* Force all text inside to be visible */
+}
+
+    .card-body h5,
+    .card-body p {
+        color: #000; /* Ensure headings and details are black */
+    }
 /* Card footer */
 .card-footer {
     background: transparent; /* Remove default card footer bg */
@@ -70,7 +77,8 @@
     border-radius: 12px; /* Rounded badges for modern look */
     background: #28a745; /* Vibrant green for badges */
     color: #fff;
-    transition: background 0.2s ease;
+    /transition: background 0.2s ease;
+    /
 }
 
     .card-body .badge:hover {

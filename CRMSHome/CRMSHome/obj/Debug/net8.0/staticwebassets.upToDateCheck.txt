@@ -6,6 +6,7 @@ wwwroot\css2\manage-cars.css
 wwwroot\css2\view-car.css
 wwwroot\css\about.css
 wwwroot\css\active-booking.css
+wwwroot\css\adminlayout.css
 wwwroot\css\book-car.css
 wwwroot\css\car-details.css
 wwwroot\css\customer-register.css
@@ -164,4 +165,3 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\adminlayout.css
